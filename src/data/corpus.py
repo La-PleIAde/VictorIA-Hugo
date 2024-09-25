@@ -2,28 +2,26 @@ import re
 
 document = str(input("Please insert the full path to the text (without quotation marks): "))
 
-f = open(document, "r", encoding="utf-8")
-text = f.read()
+with open(document, "r", encoding="utf-8") as f:
+    text = f.read()
 
 
-def un_gutenberg(text):
+def un_gutenberg(text: str):
     """Removes the Project Gutenberg intro and outro"""
-    new_text = re.search("[*][*][*] [a-zA-ZÀ-ú.:;,!-? ]+ [*][*][*]", text)
+    new_text = re.search("[*][*][*] [a-zA-ZÀ-ú.:;,!-? ]+ [*][*][*]", text) #removes "***START OF PROJECT GUTENBERG <...>***"
     no_intro = text[new_text.end():].strip()
 
-    new_text = re.search("[*][*][*] [a-zA-ZÀ-ú.:;,!-? ]+ [*][*][*]", no_intro)
+    new_text = re.search("[*][*][*] [a-zA-ZÀ-ú.:;,!-? ]+ [*][*][*]", no_intro) #removes "***END OF PROJECT GUTENBERG <...>***"
     no_outro = no_intro[:new_text.start()].strip()
 
     return no_outro
 
 
-beginnings = ["Chapitre I\n", "CHAPITRE I\n", "I\n", "LIVRE PREMIER\n", "Livre premier\n"]
-endings = ["NOTES", "NOTE", "Notes"]
-
-
 def clean_up(text):
-    """Tries to clean up the text, removing the beginning notes,
+    """Clean up the text, removing the beginning notes,
     the ending notes and the unnecessary characters in between"""
+    beginnings = ["Chapitre I\n", "CHAPITRE I\n", "I\n", "LIVRE PREMIER\n", "Livre premier\n"]
+    endings = ["NOTES", "NOTE", "Notes"]
     for item in beginnings:
         if item in text:
             new_doc = text[text.find(item):]
