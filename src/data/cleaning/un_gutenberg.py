@@ -56,6 +56,7 @@ def process_author_files(author: str, output_ds_name: str):
                 save_path = Path(save_dir) / file.name
                 with save_path.open('w', encoding='utf-8') as f:
                     f.write(content)
+                logging.info(f"Processed {file.name} by {author}")
             except UnGutenbergError as e:
                 logging.error(f"Failed to process {file.name} by {author}. Error: {e}")
             except Exception as e:
