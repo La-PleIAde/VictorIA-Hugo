@@ -63,7 +63,7 @@ def process_author_files(author: str, output_ds_name: str):
                 logging.error(f"Unexpected error processing {file.name} by {author}. Error: {e}")
 
 
-def process_raw_dataset(output_ds_name: str = 'unsourced'):
+def process_dataset(output_ds_name: str = 'unsourced'):
     """Process entire raw dataset."""
     for author in list_authors():
         process_author_files(author, output_ds_name)
@@ -81,4 +81,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO)
-    process_raw_dataset(args.o)
+    process_dataset(args.o)

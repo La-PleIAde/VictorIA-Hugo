@@ -7,11 +7,15 @@ from src.data.path import get_absolute_path, list_authors
 
 
 def clean_up(text: str) -> str:
-    beginnings = ["Chapitre I\n", "CHAPITRE I\n", "I\n", "LIVRE PREMIER\n", "Livre premier\n", "Droit de traduction réservé\n"]
-    endings = ["NOTES", "NOTE", "Notes", "TABLE", "\nFIN\n"]
+    """Clean up and standardize the text"""
+    beginnings = ["Chapitre I\n", "CHAPITRE I\n", "\nI\n", "LIVRE PREMIER\n", "Livre premier\n",
+                  "Droit de traduction réservé\n", "\nINTRODUCTION\n"]
+    endings = ["\nNOTES\n", "  NOTES  ", "  NOTES.\n", "\nNOTE\n", "  NOTE  ", "\nNotes\n", "  Notes  ",
+               "\nTABLE\n", "  TABLE  ", "\nFIN\n", "  FIN  ", "\nEND OF THE TEXT\n",
+               "\nParis.--Imp. Gauthier-Villars, 55, quai des Grands-Augustins.\n"]
 
     # Remove the part before the beginning marker
-    for start in beginnings:
+    for start in beginnings * 2:
         if start in text:
             text = text[text.find(start) + len(start):]
 
@@ -26,6 +30,8 @@ def clean_up(text: str) -> str:
     text = re.sub(r"\.\s*\.", ".", text)  # Replace . . . with .
     text = re.sub(r"\*\s*\*", "", text)  # Remove * * *
     text = re.sub(r"\[Illustration:\s*.*?\s*]", "", text, flags=re.DOTALL)  # Remove illustrations
+    text = re.sub(r"\[Footnotes:\s*.*?\s*]", "", text, flags=re.DOTALL)  # Remove illustrations
+    text = re.sub(r"\.\s{2,}\d+\n", ".\n", text)  # Remove page numeration
 
 
     # Remove divisions
@@ -75,7 +81,7 @@ def process_author_files(author: str, input_ds_name: str, output_ds_name: str):
                 logging.error(f"Failed to process {file.name} by {author}. Error: {e}")
 
 
-def process_raw_dataset(input_ds_name: str = 'unsourced', output_ds_name: str = 'clean'):
+def process_dataset(input_ds_name: str = 'unsourced', output_ds_name: str = 'clean'):
     """Process entire raw dataset."""
     for author in list_authors():
         process_author_files(author, input_ds_name, output_ds_name)
@@ -99,4 +105,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO)
-    process_raw_dataset(args.i, args.o)
+    process_dataset(args.i, args.o)
