@@ -3,5 +3,5 @@ matplotlib~=3.9.2
 transformers~=4.45.1
 scikit-learn~=1.5.2
 numpy~=2.1.1
-protobuf~=5.28.2
-sacremoses~=0.1.1
+pandas~=2.2.3
+accelerate>=0.26.0

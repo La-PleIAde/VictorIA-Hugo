@@ -9,6 +9,5 @@
   </component>
   <component name="PackageRequirementsSettings">
     <option name="removeUnused" value="true" />
-    <option name="keepMatchingSpecifier" value="false" />
   </component>
 </module>
