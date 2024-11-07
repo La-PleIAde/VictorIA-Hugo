@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 from typing import Tuple
 
-from src.data.path import get_absolute_path, list_authors
+from src.data import get_absolute_path, list_authors
 
 
 class UnGutenbergError(Exception):
@@ -42,19 +42,19 @@ def un_gutenberg(text: str) -> str:
 
 def process_author_files(author: str, output_ds_name: str):
     """Process all files for a given author."""
-    author_path = get_absolute_path('raw', source='gutenberg', author=author)
-    save_dir = get_absolute_path('silver', name=output_ds_name, author=author, force_exist=False, create_new=True)
+    author_path = get_absolute_path("raw", source="gutenberg", author=author)
+    save_dir = get_absolute_path("silver", ds_type=output_ds_name, author=author, force_exist=False, create_new=True)
 
     Path(save_dir).mkdir(parents=True, exist_ok=True)
 
     for file in Path(author_path).iterdir():
         if file.is_file():
-            with file.open('r', encoding='utf-8') as f:
+            with file.open("r", encoding="utf-8") as f:
                 content = f.read()
             try:
                 content = un_gutenberg(content)
                 save_path = Path(save_dir) / file.name
-                with save_path.open('w', encoding='utf-8') as f:
+                with save_path.open("w", encoding="utf-8") as f:
                     f.write(content)
                 logging.info(f"Processed {file.name} by {author}")
             except UnGutenbergError as e:
@@ -63,7 +63,7 @@ def process_author_files(author: str, output_ds_name: str):
                 logging.error(f"Unexpected error processing {file.name} by {author}. Error: {e}")
 
 
-def process_dataset(output_ds_name: str = 'unsourced'):
+def process_dataset(output_ds_name: str = "unsourced"):
     """Process entire raw dataset."""
     for author in list_authors():
         process_author_files(author, output_ds_name)
