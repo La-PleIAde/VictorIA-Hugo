@@ -2,6 +2,8 @@ import os
 from enum import Enum
 from typing import List
 
+from root import ROOT_DIR
+
 
 class Stage(Enum):
     """Data pipeline stages."""
@@ -12,10 +14,7 @@ class Stage(Enum):
 
 def to_absolute(path: str) -> str:
     """Convert local path to absolute path"""
-    parent_dir = os.path.dirname(__file__)
-    src_dir = os.path.dirname(parent_dir)
-    root_dir = os.path.dirname(src_dir)
-    return os.path.join(root_dir, path)
+    return os.path.join(ROOT_DIR, path)
 
 
 def list_sources() -> List[str]:
@@ -32,14 +31,14 @@ def list_authors() -> List[str]:
     return list(authors)
 
 
-def get_relative_path(stage: str | Stage, source: str = None, name: str = None, author: str = None,
+def get_relative_path(stage: str | Stage, source: str = None, ds_type: str = None, author: str = None,
                       force_exist: bool = True, create_new: bool=False) -> str:
     """
     Returns the relative path of the targeted dataset or directory in the datalake (creates when necessary).
 
     :param stage: data pipeline stage
     :param source: (for `raw` stage) - the source of the data
-    :param name: (for silver and gold stages) - the name of the dataset
+    :param ds_type: (for silver and gold stages) - the name of the dataset
     :param author: author name
     :param force_exist: if True, raise an error if the directory does not exist
     :param create_new: if True, create the directory if it does not exist
@@ -57,8 +56,8 @@ def get_relative_path(stage: str | Stage, source: str = None, name: str = None, 
         if not source in list_sources():
             raise ValueError(f"Invalid source: {source}. Must be one of {list_sources()}")
         base_path = os.path.join(base_path, f"source={source}")
-    if name:
-        base_path = os.path.join(base_path, name)
+    if ds_type:
+        base_path = os.path.join(base_path, f"type={ds_type}")
     if author:
         if not author in list_authors():
             raise ValueError(f"Invalid author: {author}. Must be one of {list_authors()}")
@@ -73,20 +72,20 @@ def get_relative_path(stage: str | Stage, source: str = None, name: str = None, 
     return base_path
 
 
-def get_absolute_path(stage: str | Stage, source: str = None, name: str = None, author: str = None,
-                   force_exist: bool = True, create_new: bool=False) -> str:
+def get_absolute_path(stage: str | Stage, source: str = None, ds_type: str = None, author: str = None,
+                      force_exist: bool = True, create_new: bool=False) -> str:
     """
     Returns the absolute path of the targeted dataset or directory in the datalake (creates when necessary).
 
     :param stage: data pipeline stage
     :param source: (for `raw` stage) - the source of the data
-    :param name: (for silver and gold stages) - the name of the dataset
+    :param ds_type: (for silver and gold stages) - the name of the dataset
     :param author: author name
     :param force_exist: if True, raise an error if the directory does not exist
     :param create_new: if True, create the directory if it does not exist
     :return: absolute path of the targeted dataset
     """
-    local_path = get_relative_path(stage, source, name, author, False, False)
+    local_path = get_relative_path(stage, source, ds_type, author, False, False)
     absolute_path = to_absolute(local_path)
 
     if not os.path.exists(absolute_path):

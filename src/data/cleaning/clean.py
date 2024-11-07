@@ -3,7 +3,7 @@ import logging
 import re
 from pathlib import Path
 
-from src.data.path import get_absolute_path, list_authors
+from src.data import get_absolute_path, list_authors
 
 
 def clean_up(text: str) -> str:
@@ -62,8 +62,8 @@ def clean_up(text: str) -> str:
 
 def process_author_files(author: str, input_ds_name: str, output_ds_name: str):
     """Process all files for a given author."""
-    author_path = get_absolute_path('silver', name=input_ds_name, author=author)
-    save_dir = get_absolute_path('silver', name=output_ds_name, author=author, force_exist=False, create_new=True)
+    author_path = get_absolute_path('silver', ds_type=input_ds_name, author=author)
+    save_dir = get_absolute_path('silver', ds_type=output_ds_name, author=author, force_exist=False, create_new=True)
 
     Path(save_dir).mkdir(parents=True, exist_ok=True)
 
@@ -88,7 +88,7 @@ def process_dataset(input_ds_name: str = 'unsourced', output_ds_name: str = 'cle
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Process Project Gutenberg texts.")
+    parser = argparse.ArgumentParser(description="Clean up texts.")
     parser.add_argument(
         "-i",
         type=str,
