@@ -7,9 +7,9 @@ from root import ROOT_DIR
 
 class Stage(Enum):
     """Data pipeline stages."""
-    raw: str = 'raw'
-    silver: str = 'silver'
-    gold: str = 'gold'
+    raw: str = "raw"
+    silver: str = "silver"
+    gold: str = "gold"
 
 
 def to_absolute(path: str) -> str:
