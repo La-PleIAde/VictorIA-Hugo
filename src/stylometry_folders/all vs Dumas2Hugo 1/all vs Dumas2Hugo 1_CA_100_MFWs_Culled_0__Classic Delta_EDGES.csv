@@ -1,0 +1,803 @@
+Source,Target,Weight,Type
+colette_-_Barks_and_Purrs,daudet_-_Le_Petit_Chose,2,undirected
+colette_-_Barks_and_Purrs,hugo_-_runner.sh,6,undirected
+colette_-_Barks_and_Purrs,verne_-_Les grands navigateurs du XVIIIe siècle,2,undirected
+colette_-_Chéri,colette_-_L'Ingénue_Libertine,5,undirected
+colette_-_Chéri,colette_-_La_Fin_de_Chéri,5,undirected
+colette_-_Chéri,colette_-_Le_blé_en_herbe,3,undirected
+colette_-_L'Ingénue_Libertine,colette_-_Chéri,5,undirected
+colette_-_L'Ingénue_Libertine,colette_-_La_Fin_de_Chéri,3,undirected
+colette_-_L'Ingénue_Libertine,colette_-_Le_blé_en_herbe,2,undirected
+colette_-_La_Fin_de_Chéri,colette_-_Chéri,5,undirected
+colette_-_La_Fin_de_Chéri,colette_-_L'Ingénue_Libertine,3,undirected
+colette_-_La_Fin_de_Chéri,colette_-_Le_blé_en_herbe,6,undirected
+colette_-_La_maison_de_Claudin,colette_-_Le_blé_en_herbe,1,undirected
+colette_-_La_maison_de_Claudin,colette_-_Les_heures_longues,5,undirected
+colette_-_La_maison_de_Claudin,colette_-_Rêverie_de_Nouvel_An,2,undirected
+colette_-_La_maison_de_Claudin,colette_-_Sido_suivi_de_Les_vrilles_de_la_vigne,6,undirected
+colette_-_Le_blé_en_herbe,colette_-_Chéri,3,undirected
+colette_-_Le_blé_en_herbe,colette_-_L'Ingénue_Libertine,2,undirected
+colette_-_Le_blé_en_herbe,colette_-_La_Fin_de_Chéri,6,undirected
+colette_-_Le_blé_en_herbe,colette_-_La_maison_de_Claudin,1,undirected
+colette_-_Le_blé_en_herbe,colette_-_Sido_suivi_de_Les_vrilles_de_la_vigne,1,undirected
+colette_-_Les_heures_longues,colette_-_La_maison_de_Claudin,5,undirected
+colette_-_Les_heures_longues,colette_-_Rêverie_de_Nouvel_An,1,undirected
+colette_-_Les_heures_longues,colette_-_Sido_suivi_de_Les_vrilles_de_la_vigne,4,undirected
+colette_-_Les_heures_longues,daudet_-_Lettres_de_mon_moulin,1,undirected
+colette_-_Rêverie_de_Nouvel_An,colette_-_La_maison_de_Claudin,2,undirected
+colette_-_Rêverie_de_Nouvel_An,colette_-_Les_heures_longues,1,undirected
+colette_-_Rêverie_de_Nouvel_An,colette_-_Sido_suivi_de_Les_vrilles_de_la_vigne,3,undirected
+colette_-_Sido_suivi_de_Les_vrilles_de_la_vigne,colette_-_La_maison_de_Claudin,6,undirected
+colette_-_Sido_suivi_de_Les_vrilles_de_la_vigne,colette_-_Le_blé_en_herbe,1,undirected
+colette_-_Sido_suivi_de_Les_vrilles_de_la_vigne,colette_-_Les_heures_longues,4,undirected
+colette_-_Sido_suivi_de_Les_vrilles_de_la_vigne,colette_-_Rêverie_de_Nouvel_An,3,undirected
+colette_-_Sido_suivi_de_Les_vrilles_de_la_vigne,zola_-_Nouveaux Contes à Ninon,1,undirected
+daudet_-_Contes_de_lundi,daudet_-_La_Belle-Nivernaise_Histoire_d'un_vieux_bateau_et_de_son_équipage,3,undirected
+daudet_-_Contes_de_lundi,daudet_-_Le_nabab,_tome_I,2,undirected
+daudet_-_Contes_de_lundi,daudet_-_Le_nabab,_tome_II,1,undirected
+daudet_-_Contes_de_lundi,daudet_-_Lettres_de_mon_moulin,6,undirected
+daudet_-_L'Immortel,daudet_-_Le_nabab,_tome_I,1,undirected
+daudet_-_L'Immortel,daudet_-_Le_nabab,_tome_II,3,undirected
+daudet_-_L'Immortel,daudet_-_Les_femmes_d'artistes,1,undirected
+daudet_-_L'Immortel,daudet_-_Numa_Roumestan_Moeurs_Parisiennes,5,undirected
+daudet_-_L'Immortel,daudet_-_Sapho,3,undirected
+daudet_-_L'Immortel,daudet_-_Tartarin_sur_les_Alpes,2,undirected
+daudet_-_La_Belle-Nivernaise_Histoire_d'un_vieux_bateau_et_de_son_équipage,daudet_-_Contes_de_lundi,3,undirected
+daudet_-_La_Belle-Nivernaise_Histoire_d'un_vieux_bateau_et_de_son_équipage,daudet_-_Le_nabab,_tome_I,1,undirected
+daudet_-_La_Belle-Nivernaise_Histoire_d'un_vieux_bateau_et_de_son_équipage,daudet_-_Lettres_de_mon_moulin,2,undirected
+daudet_-_Le_nabab,_tome_I,daudet_-_Contes_de_lundi,2,undirected
+daudet_-_Le_nabab,_tome_I,daudet_-_L'Immortel,1,undirected
+daudet_-_Le_nabab,_tome_I,daudet_-_La_Belle-Nivernaise_Histoire_d'un_vieux_bateau_et_de_son_équipage,1,undirected
+daudet_-_Le_nabab,_tome_I,daudet_-_Le_nabab,_tome_II,6,undirected
+daudet_-_Le_nabab,_tome_I,daudet_-_Les_femmes_d'artistes,2,undirected
+daudet_-_Le_nabab,_tome_I,daudet_-_Lettres_de_mon_moulin,2,undirected
+daudet_-_Le_nabab,_tome_I,daudet_-_Numa_Roumestan_Moeurs_Parisiennes,3,undirected
+daudet_-_Le_nabab,_tome_II,daudet_-_Contes_de_lundi,1,undirected
+daudet_-_Le_nabab,_tome_II,daudet_-_L'Immortel,3,undirected
+daudet_-_Le_nabab,_tome_II,daudet_-_Le_nabab,_tome_I,6,undirected
+daudet_-_Le_nabab,_tome_II,daudet_-_Les_femmes_d'artistes,3,undirected
+daudet_-_Le_nabab,_tome_II,daudet_-_Numa_Roumestan_Moeurs_Parisiennes,5,undirected
+daudet_-_Le_nabab,_tome_II,daudet_-_Sapho,1,undirected
+daudet_-_Le_nabab,_tome_II,daudet_-_Tartarin_de_Tarascon,1,undirected
+daudet_-_Le_Petit_Chose,colette_-_Barks_and_Purrs,2,undirected
+daudet_-_Le_Petit_Chose,daudet_-_Tartarin_sur_les_Alpes,1,undirected
+daudet_-_Le_Petit_Chose,hugo_-_Hernani,6,undirected
+daudet_-_Le_Petit_Chose,hugo_-_runner.sh,1,undirected
+daudet_-_Le_Petit_Chose,hugo_-_Victor_Hugo_à_vingt_ans_Glanes_romantiques,2,undirected
+daudet_-_Le_Petit_Chose,verne_-_Michel Strogoff,2,undirected
+daudet_-_Les_femmes_d'artistes,daudet_-_L'Immortel,1,undirected
+daudet_-_Les_femmes_d'artistes,daudet_-_Le_nabab,_tome_I,2,undirected
+daudet_-_Les_femmes_d'artistes,daudet_-_Le_nabab,_tome_II,3,undirected
+daudet_-_Lettres_de_mon_moulin,colette_-_Les_heures_longues,1,undirected
+daudet_-_Lettres_de_mon_moulin,daudet_-_Contes_de_lundi,6,undirected
+daudet_-_Lettres_de_mon_moulin,daudet_-_La_Belle-Nivernaise_Histoire_d'un_vieux_bateau_et_de_son_équipage,2,undirected
+daudet_-_Lettres_de_mon_moulin,daudet_-_Le_nabab,_tome_I,2,undirected
+daudet_-_Lettres_de_mon_moulin,daudet_-_Numa_Roumestan_Moeurs_Parisiennes,1,undirected
+daudet_-_Lettres_de_mon_moulin,hugo_-_Le_Rhin,_Tome_I,2,undirected
+daudet_-_Lettres_de_mon_moulin,hugo_-_Le_Rhin,_Tome_III,2,undirected
+daudet_-_Lettres_de_mon_moulin,zola_-_Nouveaux Contes à Ninon,2,undirected
+daudet_-_Numa_Roumestan_Moeurs_Parisiennes,daudet_-_L'Immortel,5,undirected
+daudet_-_Numa_Roumestan_Moeurs_Parisiennes,daudet_-_Le_nabab,_tome_I,3,undirected
+daudet_-_Numa_Roumestan_Moeurs_Parisiennes,daudet_-_Le_nabab,_tome_II,5,undirected
+daudet_-_Numa_Roumestan_Moeurs_Parisiennes,daudet_-_Lettres_de_mon_moulin,1,undirected
+daudet_-_Numa_Roumestan_Moeurs_Parisiennes,daudet_-_Sapho,3,undirected
+daudet_-_Numa_Roumestan_Moeurs_Parisiennes,daudet_-_Tartarin_de_Tarascon,2,undirected
+daudet_-_Numa_Roumestan_Moeurs_Parisiennes,daudet_-_Tartarin_sur_les_Alpes,3,undirected
+daudet_-_Numa_Roumestan_Moeurs_Parisiennes,dumas2hugo_para_1,1,undirected
+daudet_-_Sapho,daudet_-_L'Immortel,3,undirected
+daudet_-_Sapho,daudet_-_Le_nabab,_tome_II,1,undirected
+daudet_-_Sapho,daudet_-_Numa_Roumestan_Moeurs_Parisiennes,3,undirected
+daudet_-_Sapho,daudet_-_Tartarin_sur_les_Alpes,1,undirected
+daudet_-_Tartarin_de_Tarascon,daudet_-_Le_nabab,_tome_II,1,undirected
+daudet_-_Tartarin_de_Tarascon,daudet_-_Numa_Roumestan_Moeurs_Parisiennes,2,undirected
+daudet_-_Tartarin_de_Tarascon,daudet_-_Tartarin_sur_les_Alpes,3,undirected
+daudet_-_Tartarin_sur_les_Alpes,daudet_-_L'Immortel,2,undirected
+daudet_-_Tartarin_sur_les_Alpes,daudet_-_Le_Petit_Chose,1,undirected
+daudet_-_Tartarin_sur_les_Alpes,daudet_-_Numa_Roumestan_Moeurs_Parisiennes,3,undirected
+daudet_-_Tartarin_sur_les_Alpes,daudet_-_Sapho,1,undirected
+daudet_-_Tartarin_sur_les_Alpes,daudet_-_Tartarin_de_Tarascon,3,undirected
+dumas_-_Acté,dumas_-_Georges,1,undirected
+dumas_-_Acté,dumas_-_La_San-Felice,_Tome_01,2,undirected
+dumas_-_Acté,dumas_-_Le_capitaine_Pamphile,6,undirected
+dumas_-_Bric-à-brac,dumas_-_Gabriel_Lambert,3,undirected
+dumas_-_Bric-à-brac,dumas_-_La_San-Felice,_Tome_02,1,undirected
+dumas_-_Bric-à-brac,dumas_-_Le_corricolo,2,undirected
+dumas_-_Bric-à-brac,dumas_-_Les_compagnons_de_Jéhu,3,undirected
+dumas_-_Bric-à-brac,zola_-_La vérité en marche,1,undirected
+dumas_-_Création_et_rédemption,_première_partie_Le_docteur_mystérieux,dumas_-_Georges,5,undirected
+dumas_-_Création_et_rédemption,_première_partie_Le_docteur_mystérieux,dumas_-_Histoire_d'un_casse-noisette,1,undirected
+dumas_-_Création_et_rédemption,_première_partie_Le_docteur_mystérieux,dumas_-_La_San-Felice,_Tome_01,3,undirected
+dumas_-_Création_et_rédemption,_première_partie_Le_docteur_mystérieux,dumas_-_La_San-Felice,_Tome_03,2,undirected
+dumas_-_Création_et_rédemption,_première_partie_Le_docteur_mystérieux,dumas_-_La_San-Felice,_Tome_05,2,undirected
+dumas_-_Création_et_rédemption,_première_partie_Le_docteur_mystérieux,dumas_-_Le_corricolo,2,undirected
+dumas_-_Gabriel_Lambert,dumas_-_Bric-à-brac,3,undirected
+dumas_-_Gabriel_Lambert,dumas_-_Pauline_et_Pascal_Bruno,2,undirected
+dumas_-_Gabriel_Lambert,hugo_-_Bug-Jargal,1,undirected
+dumas_-_Gabriel_Lambert,hugo_-_Han_d'Islande,1,undirected
+dumas_-_Georges,dumas_-_Acté,1,undirected
+dumas_-_Georges,dumas_-_Création_et_rédemption,_première_partie_Le_docteur_mystérieux,5,undirected
+dumas_-_Georges,dumas_-_Histoire_d'un_casse-noisette,3,undirected
+dumas_-_Georges,dumas_-_Le_Capitaine_Aréna_—_Tome_1,3,undirected
+dumas_-_Georges,dumas_-_Le_Capitaine_Aréna_—_Tome_2,1,undirected
+dumas_-_Georges,dumas_-_Le_capitaine_Pamphile,1,undirected
+dumas_-_Georges,dumas_-_Le_corricolo,6,undirected
+dumas_-_Henri_III_et_sa_Cour,dumas_-_Le_comte_de_Monte-Cristo,_Tome_III,2,undirected
+dumas_-_Henri_III_et_sa_Cour,dumas_-_Le_vicomte_de_Bragelonne,_Tome_III.,3,undirected
+dumas_-_Henri_III_et_sa_Cour,dumas_-_Les_quarante-cinq_—_Tome_1,1,undirected
+dumas_-_Henri_III_et_sa_Cour,zola_-_Correspondance Les lettres et les arts,2,undirected
+dumas_-_Histoire_d'un_casse-noisette,dumas_-_Création_et_rédemption,_première_partie_Le_docteur_mystérieux,1,undirected
+dumas_-_Histoire_d'un_casse-noisette,dumas_-_Georges,3,undirected
+dumas_-_Histoire_d'un_casse-noisette,dumas_-_Le_chevalier_d'Harmental,2,undirected
+dumas_-_La_dame_de_Monsoreau_—__Tome_1.,dumas_-_La_dame_de_Monsoreau_—_Tome_2.,4,undirected
+dumas_-_La_dame_de_Monsoreau_—__Tome_1.,dumas_-_La_dame_de_Monsoreau_—_Tome_3.,2,undirected
+dumas_-_La_dame_de_Monsoreau_—__Tome_1.,dumas_-_La_reine_Margot_-_Tome_I,3,undirected
+dumas_-_La_dame_de_Monsoreau_—__Tome_1.,dumas_-_La_reine_Margot_-_Tome_II,2,undirected
+dumas_-_La_dame_de_Monsoreau_—__Tome_1.,dumas_-_Les_mille_et_un_fantômes,1,undirected
+dumas_-_La_dame_de_Monsoreau_—__Tome_1.,dumas_-_Les_quarante-cinq_—_Tome_2,2,undirected
+dumas_-_La_dame_de_Monsoreau_—__Tome_1.,hugo_-_Le_Roi_s'amuse,2,undirected
+dumas_-_La_dame_de_Monsoreau_—__Tome_1.,hugo_-_Ruy_Blas_Drame,1,undirected
+dumas_-_La_dame_de_Monsoreau_—__Tome_1.,zola_-_Correspondance Lettres de jeunesse,2,undirected
+dumas_-_La_dame_de_Monsoreau_—_Tome_2.,dumas_-_La_dame_de_Monsoreau_—__Tome_1.,4,undirected
+dumas_-_La_dame_de_Monsoreau_—_Tome_2.,dumas_-_La_dame_de_Monsoreau_—_Tome_3.,6,undirected
+dumas_-_La_dame_de_Monsoreau_—_Tome_2.,dumas_-_La_reine_Margot_-_Tome_II,1,undirected
+dumas_-_La_dame_de_Monsoreau_—_Tome_2.,dumas_-_Les_quarante-cinq_—_Tome_1,5,undirected
+dumas_-_La_dame_de_Monsoreau_—_Tome_2.,dumas_-_Vingt_ans_après,1,undirected
+dumas_-_La_dame_de_Monsoreau_—_Tome_3.,dumas_-_La_dame_de_Monsoreau_—__Tome_1.,2,undirected
+dumas_-_La_dame_de_Monsoreau_—_Tome_3.,dumas_-_La_dame_de_Monsoreau_—_Tome_2.,6,undirected
+dumas_-_La_dame_de_Monsoreau_—_Tome_3.,dumas_-_Les_quarante-cinq_—_Tome_1,1,undirected
+dumas_-_La_femme_au_collier_de_velours,dumas_-_Le_corricolo,2,undirected
+dumas_-_La_femme_au_collier_de_velours,dumas_-_The_Count_of_Monte_Cristo,1,undirected
+dumas_-_La_femme_au_collier_de_velours,hugo_-_Notre-Dame_de_Paris,4,undirected
+dumas_-_La_femme_au_collier_de_velours,hugo_-_Notre-Dame_de_Paris_-_Tome_2,1,undirected
+dumas_-_La_reine_Margot_-_Tome_I,dumas_-_La_dame_de_Monsoreau_—__Tome_1.,3,undirected
+dumas_-_La_reine_Margot_-_Tome_I,dumas_-_La_reine_Margot_-_Tome_II,6,undirected
+dumas_-_La_reine_Margot_-_Tome_I,dumas_-_Le_chevalier_de_Maison-Rouge,1,undirected
+dumas_-_La_reine_Margot_-_Tome_I,dumas_-_Le_comte_de_Monte-Cristo,_Tome_IV,3,undirected
+dumas_-_La_reine_Margot_-_Tome_I,dumas_-_Les_trois_mousquetaires,1,undirected
+dumas_-_La_reine_Margot_-_Tome_II,dumas_-_La_dame_de_Monsoreau_—__Tome_1.,2,undirected
+dumas_-_La_reine_Margot_-_Tome_II,dumas_-_La_dame_de_Monsoreau_—_Tome_2.,1,undirected
+dumas_-_La_reine_Margot_-_Tome_II,dumas_-_La_reine_Margot_-_Tome_I,6,undirected
+dumas_-_La_San-Felice,_Tome_01,dumas_-_Acté,2,undirected
+dumas_-_La_San-Felice,_Tome_01,dumas_-_Création_et_rédemption,_première_partie_Le_docteur_mystérieux,3,undirected
+dumas_-_La_San-Felice,_Tome_01,dumas_-_La_San-Felice,_Tome_03,1,undirected
+dumas_-_La_San-Felice,_Tome_01,dumas_-_La_San-Felice,_Tome_05,2,undirected
+dumas_-_La_San-Felice,_Tome_01,dumas_-_Le_capitaine_Pamphile,2,undirected
+dumas_-_La_San-Felice,_Tome_02,dumas_-_Bric-à-brac,1,undirected
+dumas_-_La_San-Felice,_Tome_02,dumas_-_La_San-Felice,_Tome_03,3,undirected
+dumas_-_La_San-Felice,_Tome_02,dumas_-_la_San-Felice,_Tome_04,2,undirected
+dumas_-_La_San-Felice,_Tome_02,dumas_-_La_San-Felice,_Tome_06,2,undirected
+dumas_-_La_San-Felice,_Tome_02,dumas_-_Le_comte_de_Moret,4,undirected
+dumas_-_La_San-Felice,_Tome_02,dumas_-_Les_compagnons_de_Jéhu,6,undirected
+dumas_-_La_San-Felice,_Tome_03,dumas_-_Création_et_rédemption,_première_partie_Le_docteur_mystérieux,2,undirected
+dumas_-_La_San-Felice,_Tome_03,dumas_-_La_San-Felice,_Tome_01,1,undirected
+dumas_-_La_San-Felice,_Tome_03,dumas_-_La_San-Felice,_Tome_02,3,undirected
+dumas_-_La_San-Felice,_Tome_03,dumas_-_la_San-Felice,_Tome_04,1,undirected
+dumas_-_La_San-Felice,_Tome_03,dumas_-_La_San-Felice,_Tome_05,1,undirected
+dumas_-_La_San-Felice,_Tome_03,dumas_-_La_San-Felice,_Tome_06,6,undirected
+dumas_-_la_San-Felice,_Tome_04,dumas_-_La_San-Felice,_Tome_02,2,undirected
+dumas_-_la_San-Felice,_Tome_04,dumas_-_La_San-Felice,_Tome_03,1,undirected
+dumas_-_la_San-Felice,_Tome_04,dumas_-_La_San-Felice,_Tome_06,1,undirected
+dumas_-_la_San-Felice,_Tome_04,dumas_-_Le_comte_de_Moret,6,undirected
+dumas_-_la_San-Felice,_Tome_04,dumas_-_Les_compagnons_de_Jéhu,3,undirected
+dumas_-_La_San-Felice,_Tome_05,dumas_-_Création_et_rédemption,_première_partie_Le_docteur_mystérieux,2,undirected
+dumas_-_La_San-Felice,_Tome_05,dumas_-_La_San-Felice,_Tome_01,2,undirected
+dumas_-_La_San-Felice,_Tome_05,dumas_-_La_San-Felice,_Tome_03,1,undirected
+dumas_-_La_San-Felice,_Tome_05,dumas_-_La_San-Felice,_Tome_06,3,undirected
+dumas_-_La_San-Felice,_Tome_05,dumas_-_Mémoires_de_Garibaldi,_tome_2,1,undirected
+dumas_-_La_San-Felice,_Tome_06,dumas_-_La_San-Felice,_Tome_02,2,undirected
+dumas_-_La_San-Felice,_Tome_06,dumas_-_La_San-Felice,_Tome_03,6,undirected
+dumas_-_La_San-Felice,_Tome_06,dumas_-_la_San-Felice,_Tome_04,1,undirected
+dumas_-_La_San-Felice,_Tome_06,dumas_-_La_San-Felice,_Tome_05,3,undirected
+dumas_-_La_tulipe_noire,dumas_-_Le_comte_de_Monte-Cristo,_Tome_IV,1,undirected
+dumas_-_La_tulipe_noire,dumas_-_Les_quarante-cinq_—_Tome_3,2,undirected
+dumas_-_La_tulipe_noire,dumas_-_The_Count_of_Monte_Cristo,3,undirected
+dumas_-_Le_Capitaine_Aréna_—_Tome_1,dumas_-_Georges,3,undirected
+dumas_-_Le_Capitaine_Aréna_—_Tome_1,dumas_-_Le_Capitaine_Aréna_—_Tome_2,4,undirected
+dumas_-_Le_Capitaine_Aréna_—_Tome_1,dumas_-_Le_corricolo,5,undirected
+dumas_-_Le_Capitaine_Aréna_—_Tome_2,dumas_-_Georges,1,undirected
+dumas_-_Le_Capitaine_Aréna_—_Tome_2,dumas_-_Le_Capitaine_Aréna_—_Tome_1,4,undirected
+dumas_-_Le_Capitaine_Aréna_—_Tome_2,dumas_-_Le_corricolo,2,undirected
+dumas_-_Le_Capitaine_Aréna_—_Tome_2,dumas_-_Mémoires_de_Garibaldi,_tome_1,1,undirected
+dumas_-_Le_Capitaine_Aréna_—_Tome_2,dumas_-_Mémoires_de_Garibaldi,_tome_2,2,undirected
+dumas_-_Le_capitaine_Pamphile,dumas_-_Acté,6,undirected
+dumas_-_Le_capitaine_Pamphile,dumas_-_Georges,1,undirected
+dumas_-_Le_capitaine_Pamphile,dumas_-_La_San-Felice,_Tome_01,2,undirected
+dumas_-_Le_capitaine_Pamphile,dumas2hugo_para_1,3,undirected
+dumas_-_Le_capitaine_Paul,dumas_-_Le_comte_de_Monte-Cristo,_Tome_IV,3,undirected
+dumas_-_Le_capitaine_Paul,dumas_-_Pauline_et_Pascal_Bruno,3,undirected
+dumas_-_Le_capitaine_Paul,dumas_-_The_Count_of_Monte_Cristo,2,undirected
+dumas_-_Le_capitaine_Paul,hugo_-_Han_d'Islande,3,undirected
+dumas_-_Le_chevalier_d'Harmental,dumas_-_Histoire_d'un_casse-noisette,2,undirected
+dumas_-_Le_chevalier_d'Harmental,dumas_-_Le_comte_de_Moret,1,undirected
+dumas_-_Le_chevalier_d'Harmental,dumas_-_Les_trois_mousquetaires,3,undirected
+dumas_-_Le_chevalier_d'Harmental,dumas_-_The_Count_of_Monte_Cristo,2,undirected
+dumas_-_Le_chevalier_de_Maison-Rouge,dumas_-_La_reine_Margot_-_Tome_I,1,undirected
+dumas_-_Le_chevalier_de_Maison-Rouge,dumas_-_Le_comte_de_Monte-Cristo,_Tome_IV,3,undirected
+dumas_-_Le_chevalier_de_Maison-Rouge,dumas_-_Les_quarante-cinq_—_Tome_3,4,undirected
+dumas_-_Le_Collier_de_la_Reine,_Tome_I,dumas_-_Le_Collier_de_la_Reine,_Tome_II,4,undirected
+dumas_-_Le_Collier_de_la_Reine,_Tome_I,dumas_-_Le_vicomte_de_Bragelonne,_Tome_I.,3,undirected
+dumas_-_Le_Collier_de_la_Reine,_Tome_I,dumas_-_Les_quarante-cinq_—_Tome_2,2,undirected
+dumas_-_Le_Collier_de_la_Reine,_Tome_II,dumas_-_Le_Collier_de_la_Reine,_Tome_I,4,undirected
+dumas_-_Le_Collier_de_la_Reine,_Tome_II,dumas_-_Le_vicomte_de_Bragelonne,_Tome_I.,1,undirected
+dumas_-_Le_Collier_de_la_Reine,_Tome_II,dumas_-_Le_vicomte_de_Bragelonne,_Tome_IV.,2,undirected
+dumas_-_Le_comte_de_Monte-Cristo,_Tome_III,dumas_-_Henri_III_et_sa_Cour,2,undirected
+dumas_-_Le_comte_de_Monte-Cristo,_Tome_III,dumas_-_Le_comte_de_Monte-Cristo,_Tome_Il,1,undirected
+dumas_-_Le_comte_de_Monte-Cristo,_Tome_III,dumas_-_Le_vicomte_de_Bragelonne,_Tome_II.,2,undirected
+dumas_-_Le_comte_de_Monte-Cristo,_Tome_III,dumas_-_Le_vicomte_de_Bragelonne,_Tome_III.,1,undirected
+dumas_-_Le_comte_de_Monte-Cristo,_Tome_III,dumas_-_Les_quarante-cinq_—_Tome_1,3,undirected
+dumas_-_Le_comte_de_Monte-Cristo,_Tome_III,zola_-_Correspondance Lettres de jeunesse,1,undirected
+dumas_-_Le_comte_de_Monte-Cristo,_Tome_Il,dumas_-_Le_comte_de_Monte-Cristo,_Tome_III,1,undirected
+dumas_-_Le_comte_de_Monte-Cristo,_Tome_Il,dumas_-_Le_comte_de_Monte-Cristo,_Tome_IV,1,undirected
+dumas_-_Le_comte_de_Monte-Cristo,_Tome_Il,dumas_-_Les_quarante-cinq_—_Tome_2,1,undirected
+dumas_-_Le_comte_de_Monte-Cristo,_Tome_Il,dumas_-_Les_trois_mousquetaires,4,undirected
+dumas_-_Le_comte_de_Monte-Cristo,_Tome_Il,dumas_-_Vingt_ans_après,4,undirected
+dumas_-_Le_comte_de_Monte-Cristo,_Tome_IV,dumas_-_La_reine_Margot_-_Tome_I,3,undirected
+dumas_-_Le_comte_de_Monte-Cristo,_Tome_IV,dumas_-_La_tulipe_noire,1,undirected
+dumas_-_Le_comte_de_Monte-Cristo,_Tome_IV,dumas_-_Le_capitaine_Paul,3,undirected
+dumas_-_Le_comte_de_Monte-Cristo,_Tome_IV,dumas_-_Le_chevalier_de_Maison-Rouge,3,undirected
+dumas_-_Le_comte_de_Monte-Cristo,_Tome_IV,dumas_-_Le_comte_de_Monte-Cristo,_Tome_Il,1,undirected
+dumas_-_Le_comte_de_Monte-Cristo,_Tome_IV,dumas_-_Les_mille_et_un_fantômes,2,undirected
+dumas_-_Le_comte_de_Monte-Cristo,_Tome_IV,dumas_-_Les_trois_mousquetaires,2,undirected
+dumas_-_Le_comte_de_Monte-Cristo,_Tome_IV,dumas_-_The_Count_of_Monte_Cristo,2,undirected
+dumas_-_Le_comte_de_Moret,dumas_-_La_San-Felice,_Tome_02,4,undirected
+dumas_-_Le_comte_de_Moret,dumas_-_la_San-Felice,_Tome_04,6,undirected
+dumas_-_Le_comte_de_Moret,dumas_-_Le_chevalier_d'Harmental,1,undirected
+dumas_-_Le_comte_de_Moret,dumas_-_Les_compagnons_de_Jéhu,2,undirected
+dumas_-_Le_corricolo,dumas_-_Bric-à-brac,2,undirected
+dumas_-_Le_corricolo,dumas_-_Création_et_rédemption,_première_partie_Le_docteur_mystérieux,2,undirected
+dumas_-_Le_corricolo,dumas_-_Georges,6,undirected
+dumas_-_Le_corricolo,dumas_-_La_femme_au_collier_de_velours,2,undirected
+dumas_-_Le_corricolo,dumas_-_Le_Capitaine_Aréna_—_Tome_1,5,undirected
+dumas_-_Le_corricolo,dumas_-_Le_Capitaine_Aréna_—_Tome_2,2,undirected
+dumas_-_Le_corricolo,dumas_-_Mémoires_de_Garibaldi,_tome_1,2,undirected
+dumas_-_Le_corricolo,dumas_-_Pauline_et_Pascal_Bruno,1,undirected
+dumas_-_Le_corricolo,hugo_-_Littérature_et_Philosophie_mêlées,1,undirected
+dumas_-_Le_corricolo,hugo_-_Notre-Dame_de_Paris,2,undirected
+dumas_-_Le_corricolo,verne_-_Les Cinq Cents Millions De La Bégum,2,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_I.,dumas_-_Le_Collier_de_la_Reine,_Tome_I,3,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_I.,dumas_-_Le_Collier_de_la_Reine,_Tome_II,1,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_I.,dumas_-_Le_vicomte_de_Bragelonne,_Tome_II.,5,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_I.,dumas_-_Le_vicomte_de_Bragelonne,_Tome_III.,2,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_I.,dumas_-_Le_vicomte_de_Bragelonne,_Tome_IV.,5,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_I.,dumas_-_Les_quarante-cinq_—_Tome_2,2,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_II.,dumas_-_Le_comte_de_Monte-Cristo,_Tome_III,2,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_II.,dumas_-_Le_vicomte_de_Bragelonne,_Tome_I.,5,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_II.,dumas_-_Le_vicomte_de_Bragelonne,_Tome_III.,6,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_II.,dumas_-_Les_quarante-cinq_—_Tome_1,1,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_II.,dumas_-_Les_quarante-cinq_—_Tome_2,3,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_III.,dumas_-_Henri_III_et_sa_Cour,3,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_III.,dumas_-_Le_comte_de_Monte-Cristo,_Tome_III,1,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_III.,dumas_-_Le_vicomte_de_Bragelonne,_Tome_I.,2,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_III.,dumas_-_Le_vicomte_de_Bragelonne,_Tome_II.,6,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_III.,dumas_-_Le_vicomte_de_Bragelonne,_Tome_IV.,1,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_IV.,dumas_-_Le_Collier_de_la_Reine,_Tome_II,2,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_IV.,dumas_-_Le_vicomte_de_Bragelonne,_Tome_I.,5,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_IV.,dumas_-_Le_vicomte_de_Bragelonne,_Tome_III.,1,undirected
+dumas_-_Le_vicomte_de_Bragelonne,_Tome_IV.,dumas_-_Les_quarante-cinq_—_Tome_2,2,undirected
+dumas_-_Les_compagnons_de_Jéhu,dumas_-_Bric-à-brac,3,undirected
+dumas_-_Les_compagnons_de_Jéhu,dumas_-_La_San-Felice,_Tome_02,6,undirected
+dumas_-_Les_compagnons_de_Jéhu,dumas_-_la_San-Felice,_Tome_04,3,undirected
+dumas_-_Les_compagnons_de_Jéhu,dumas_-_Le_comte_de_Moret,2,undirected
+dumas_-_Les_Femmes_qui_tuent_et_les_Femmes_qui_votent,hugo_-_Littérature_et_Philosophie_mêlées,3,undirected
+dumas_-_Les_Femmes_qui_tuent_et_les_Femmes_qui_votent,zola_-_La vérité en marche,1,undirected
+dumas_-_Les_Femmes_qui_tuent_et_les_Femmes_qui_votent,zola_-_Le Naturalisme au théâtre, les théories et les exemples,2,undirected
+dumas_-_Les_mille_et_un_fantômes,dumas_-_La_dame_de_Monsoreau_—__Tome_1.,1,undirected
+dumas_-_Les_mille_et_un_fantômes,dumas_-_Le_comte_de_Monte-Cristo,_Tome_IV,2,undirected
+dumas_-_Les_mille_et_un_fantômes,dumas_-_Pauline_et_Pascal_Bruno,6,undirected
+dumas_-_Les_mille_et_un_fantômes,hugo_-_Le_Dernier_Jour_d'un_Condamné,3,undirected
+dumas_-_Les_mille_et_un_fantômes,hugo_-_Ruy_Blas_Drame,3,undirected
+dumas_-_Les_quarante-cinq_—_Tome_1,dumas_-_Henri_III_et_sa_Cour,1,undirected
+dumas_-_Les_quarante-cinq_—_Tome_1,dumas_-_La_dame_de_Monsoreau_—_Tome_2.,5,undirected
+dumas_-_Les_quarante-cinq_—_Tome_1,dumas_-_La_dame_de_Monsoreau_—_Tome_3.,1,undirected
+dumas_-_Les_quarante-cinq_—_Tome_1,dumas_-_Le_comte_de_Monte-Cristo,_Tome_III,3,undirected
+dumas_-_Les_quarante-cinq_—_Tome_1,dumas_-_Le_vicomte_de_Bragelonne,_Tome_II.,1,undirected
+dumas_-_Les_quarante-cinq_—_Tome_1,dumas_-_Les_quarante-cinq_—_Tome_2,5,undirected
+dumas_-_Les_quarante-cinq_—_Tome_1,hugo_-_Le_Roi_s'amuse,1,undirected
+dumas_-_Les_quarante-cinq_—_Tome_2,dumas_-_La_dame_de_Monsoreau_—__Tome_1.,2,undirected
+dumas_-_Les_quarante-cinq_—_Tome_2,dumas_-_Le_Collier_de_la_Reine,_Tome_I,2,undirected
+dumas_-_Les_quarante-cinq_—_Tome_2,dumas_-_Le_comte_de_Monte-Cristo,_Tome_Il,1,undirected
+dumas_-_Les_quarante-cinq_—_Tome_2,dumas_-_Le_vicomte_de_Bragelonne,_Tome_I.,2,undirected
+dumas_-_Les_quarante-cinq_—_Tome_2,dumas_-_Le_vicomte_de_Bragelonne,_Tome_II.,3,undirected
+dumas_-_Les_quarante-cinq_—_Tome_2,dumas_-_Le_vicomte_de_Bragelonne,_Tome_IV.,2,undirected
+dumas_-_Les_quarante-cinq_—_Tome_2,dumas_-_Les_quarante-cinq_—_Tome_1,5,undirected
+dumas_-_Les_quarante-cinq_—_Tome_3,dumas_-_La_tulipe_noire,2,undirected
+dumas_-_Les_quarante-cinq_—_Tome_3,dumas_-_Le_chevalier_de_Maison-Rouge,4,undirected
+dumas_-_Les_quarante-cinq_—_Tome_3,dumas_-_Les_trois_mousquetaires,1,undirected
+dumas_-_Les_quarante-cinq_—_Tome_3,dumas_-_The_Count_of_Monte_Cristo,4,undirected
+dumas_-_Les_quarante-cinq_—_Tome_3,hugo_-_Han_d'Islande,2,undirected
+dumas_-_Les_trois_mousquetaires,dumas_-_La_reine_Margot_-_Tome_I,1,undirected
+dumas_-_Les_trois_mousquetaires,dumas_-_Le_chevalier_d'Harmental,3,undirected
+dumas_-_Les_trois_mousquetaires,dumas_-_Le_comte_de_Monte-Cristo,_Tome_Il,4,undirected
+dumas_-_Les_trois_mousquetaires,dumas_-_Le_comte_de_Monte-Cristo,_Tome_IV,2,undirected
+dumas_-_Les_trois_mousquetaires,dumas_-_Les_quarante-cinq_—_Tome_3,1,undirected
+dumas_-_Les_trois_mousquetaires,dumas_-_The_Count_of_Monte_Cristo,5,undirected
+dumas_-_Les_trois_mousquetaires,dumas_-_Vingt_ans_après,6,undirected
+dumas_-_Mémoires_de_Garibaldi,_tome_1,dumas_-_Le_Capitaine_Aréna_—_Tome_2,1,undirected
+dumas_-_Mémoires_de_Garibaldi,_tome_1,dumas_-_Le_corricolo,2,undirected
+dumas_-_Mémoires_de_Garibaldi,_tome_1,dumas_-_Mémoires_de_Garibaldi,_tome_2,6,undirected
+dumas_-_Mémoires_de_Garibaldi,_tome_2,dumas_-_La_San-Felice,_Tome_05,1,undirected
+dumas_-_Mémoires_de_Garibaldi,_tome_2,dumas_-_Le_Capitaine_Aréna_—_Tome_2,2,undirected
+dumas_-_Mémoires_de_Garibaldi,_tome_2,dumas_-_Mémoires_de_Garibaldi,_tome_1,6,undirected
+dumas_-_Pauline_et_Pascal_Bruno,dumas_-_Gabriel_Lambert,2,undirected
+dumas_-_Pauline_et_Pascal_Bruno,dumas_-_Le_capitaine_Paul,3,undirected
+dumas_-_Pauline_et_Pascal_Bruno,dumas_-_Le_corricolo,1,undirected
+dumas_-_Pauline_et_Pascal_Bruno,dumas_-_Les_mille_et_un_fantômes,6,undirected
+dumas_-_Pauline_et_Pascal_Bruno,hugo_-_Bug-Jargal,2,undirected
+dumas_-_The_Count_of_Monte_Cristo,dumas_-_La_femme_au_collier_de_velours,1,undirected
+dumas_-_The_Count_of_Monte_Cristo,dumas_-_La_tulipe_noire,3,undirected
+dumas_-_The_Count_of_Monte_Cristo,dumas_-_Le_capitaine_Paul,2,undirected
+dumas_-_The_Count_of_Monte_Cristo,dumas_-_Le_chevalier_d'Harmental,2,undirected
+dumas_-_The_Count_of_Monte_Cristo,dumas_-_Le_comte_de_Monte-Cristo,_Tome_IV,2,undirected
+dumas_-_The_Count_of_Monte_Cristo,dumas_-_Les_quarante-cinq_—_Tome_3,4,undirected
+dumas_-_The_Count_of_Monte_Cristo,dumas_-_Les_trois_mousquetaires,5,undirected
+dumas_-_Vingt_ans_après,dumas_-_La_dame_de_Monsoreau_—_Tome_2.,1,undirected
+dumas_-_Vingt_ans_après,dumas_-_Le_comte_de_Monte-Cristo,_Tome_Il,4,undirected
+dumas_-_Vingt_ans_après,dumas_-_Les_trois_mousquetaires,6,undirected
+dumas2hugo_para_1,daudet_-_Numa_Roumestan_Moeurs_Parisiennes,1,undirected
+dumas2hugo_para_1,dumas_-_Le_capitaine_Pamphile,3,undirected
+dumas2hugo_para_1,verne_-_Les Cinq Cents Millions De La Bégum,2,undirected
+hugo_-_Actes_et_Paroles,_Volume_1,hugo_-_Actes_et_Paroles,_Volume_2_Pendant_l'exil,4,undirected
+hugo_-_Actes_et_Paroles,_Volume_1,hugo_-_Actes_et_Paroles,_Volume_3,5,undirected
+hugo_-_Actes_et_Paroles,_Volume_1,hugo_-_Napoléon_Le_Petit,1,undirected
+hugo_-_Actes_et_Paroles,_Volume_2_Pendant_l'exil,hugo_-_Actes_et_Paroles,_Volume_1,4,undirected
+hugo_-_Actes_et_Paroles,_Volume_2_Pendant_l'exil,hugo_-_Actes_et_Paroles,_Volume_3,6,undirected
+hugo_-_Actes_et_Paroles,_Volume_2_Pendant_l'exil,hugo_-_Napoléon_Le_Petit,1,undirected
+hugo_-_Actes_et_Paroles,_Volume_3,hugo_-_Actes_et_Paroles,_Volume_1,5,undirected
+hugo_-_Actes_et_Paroles,_Volume_3,hugo_-_Actes_et_Paroles,_Volume_2_Pendant_l'exil,6,undirected
+hugo_-_Actes_et_Paroles,_Volume_3,hugo_-_Napoléon_Le_Petit,1,undirected
+hugo_-_Bug-Jargal,dumas_-_Gabriel_Lambert,1,undirected
+hugo_-_Bug-Jargal,dumas_-_Pauline_et_Pascal_Bruno,2,undirected
+hugo_-_Bug-Jargal,hugo_-_Han_d'Islande,4,undirected
+hugo_-_Claude_Gueux,hugo_-_Les_misérables_Tome_I_Fantine,2,undirected
+hugo_-_Claude_Gueux,hugo_-_Les_misérables_Tome_III_Marius,3,undirected
+hugo_-_Claude_Gueux,hugo_-_Les_misérables_Tome_V_Jean_Valjean,1,undirected
+hugo_-_Han_d'Islande,dumas_-_Gabriel_Lambert,1,undirected
+hugo_-_Han_d'Islande,dumas_-_Le_capitaine_Paul,3,undirected
+hugo_-_Han_d'Islande,dumas_-_Les_quarante-cinq_—_Tome_3,2,undirected
+hugo_-_Han_d'Islande,hugo_-_Bug-Jargal,4,undirected
+hugo_-_Hernani,daudet_-_Le_Petit_Chose,6,undirected
+hugo_-_Hernani,hugo_-_La_Esmeralda,4,undirected
+hugo_-_Hernani,hugo_-_Ruy_Blas_Drame,1,undirected
+hugo_-_L'homme_Qui_Rit,hugo_-_Les_misérables_Tome_II__Cosette,3,undirected
+hugo_-_L'homme_Qui_Rit,hugo_-_Les_misérables_Tome_IV_L'idylle_rue_Plumet_et_l'épopée_rue_Saint-Denis,1,undirected
+hugo_-_L'homme_Qui_Rit,hugo_-_Les_Travailleurs_de_la_mer,2,undirected
+hugo_-_L'homme_Qui_Rit,hugo_-_Napoléon_Le_Petit,1,undirected
+hugo_-_L'homme_Qui_Rit,hugo_-_Post-scriptum_de_ma_vie,1,undirected
+hugo_-_L'homme_Qui_Rit,hugo_-_Quatrevingt_Treize,6,undirected
+hugo_-_La_Esmeralda,hugo_-_Hernani,4,undirected
+hugo_-_La_Esmeralda,hugo_-_Le_Roi_s'amuse,1,undirected
+hugo_-_La_Esmeralda,hugo_-_Ruy_Blas_Drame,3,undirected
+hugo_-_Le_Dernier_Jour_d'un_Condamné,dumas_-_Les_mille_et_un_fantômes,3,undirected
+hugo_-_Le_Dernier_Jour_d'un_Condamné,hugo_-_Ruy_Blas_Drame,1,undirected
+hugo_-_Le_Dernier_Jour_d'un_Condamné,maupassant_-_Le_Horla,2,undirected
+hugo_-_Le_Rhin,_Tome_I,daudet_-_Lettres_de_mon_moulin,2,undirected
+hugo_-_Le_Rhin,_Tome_I,hugo_-_Le_Rhin,_Tome_II,1,undirected
+hugo_-_Le_Rhin,_Tome_I,hugo_-_Le_Rhin,_Tome_III,6,undirected
+hugo_-_Le_Rhin,_Tome_I,hugo_-_Le_Rhin,_Tome_IV,1,undirected
+hugo_-_Le_Rhin,_Tome_II,hugo_-_Le_Rhin,_Tome_I,1,undirected
+hugo_-_Le_Rhin,_Tome_II,hugo_-_Les_misérables_Tome_IV_L'idylle_rue_Plumet_et_l'épopée_rue_Saint-Denis,1,undirected
+hugo_-_Le_Rhin,_Tome_II,hugo_-_Notre-Dame_de_Paris,3,undirected
+hugo_-_Le_Rhin,_Tome_II,hugo_-_Notre-Dame_de_Paris_-_Tome_2,2,undirected
+hugo_-_Le_Rhin,_Tome_III,daudet_-_Lettres_de_mon_moulin,2,undirected
+hugo_-_Le_Rhin,_Tome_III,hugo_-_Le_Rhin,_Tome_I,6,undirected
+hugo_-_Le_Rhin,_Tome_III,hugo_-_Le_Rhin,_Tome_IV,3,undirected
+hugo_-_Le_Rhin,_Tome_III,hugo_-_Quatrevingt_Treize,1,undirected
+hugo_-_Le_Rhin,_Tome_IV,hugo_-_Le_Rhin,_Tome_I,1,undirected
+hugo_-_Le_Rhin,_Tome_IV,hugo_-_Le_Rhin,_Tome_III,3,undirected
+hugo_-_Le_Rhin,_Tome_IV,hugo_-_Napoléon_Le_Petit,2,undirected
+hugo_-_Le_Roi_s'amuse,dumas_-_La_dame_de_Monsoreau_—__Tome_1.,2,undirected
+hugo_-_Le_Roi_s'amuse,dumas_-_Les_quarante-cinq_—_Tome_1,1,undirected
+hugo_-_Le_Roi_s'amuse,hugo_-_La_Esmeralda,1,undirected
+hugo_-_Le_Roi_s'amuse,hugo_-_Ruy_Blas_Drame,3,undirected
+hugo_-_Les_misérables_Tome_I_Fantine,hugo_-_Claude_Gueux,2,undirected
+hugo_-_Les_misérables_Tome_I_Fantine,hugo_-_Les_misérables_Tome_III_Marius,6,undirected
+hugo_-_Les_misérables_Tome_I_Fantine,hugo_-_Les_misérables_Tome_IV_L'idylle_rue_Plumet_et_l'épopée_rue_Saint-Denis,2,undirected
+hugo_-_Les_misérables_Tome_I_Fantine,hugo_-_Les_misérables_Tome_V_Jean_Valjean,5,undirected
+hugo_-_Les_misérables_Tome_II__Cosette,hugo_-_L'homme_Qui_Rit,3,undirected
+hugo_-_Les_misérables_Tome_II__Cosette,hugo_-_Les_misérables_Tome_III_Marius,2,undirected
+hugo_-_Les_misérables_Tome_II__Cosette,hugo_-_Les_misérables_Tome_IV_L'idylle_rue_Plumet_et_l'épopée_rue_Saint-Denis,6,undirected
+hugo_-_Les_misérables_Tome_II__Cosette,hugo_-_Les_Travailleurs_de_la_mer,3,undirected
+hugo_-_Les_misérables_Tome_II__Cosette,hugo_-_Quatrevingt_Treize,2,undirected
+hugo_-_Les_misérables_Tome_III_Marius,hugo_-_Claude_Gueux,3,undirected
+hugo_-_Les_misérables_Tome_III_Marius,hugo_-_Les_misérables_Tome_I_Fantine,6,undirected
+hugo_-_Les_misérables_Tome_III_Marius,hugo_-_Les_misérables_Tome_II__Cosette,2,undirected
+hugo_-_Les_misérables_Tome_III_Marius,hugo_-_Les_misérables_Tome_IV_L'idylle_rue_Plumet_et_l'épopée_rue_Saint-Denis,3,undirected
+hugo_-_Les_misérables_Tome_III_Marius,hugo_-_Les_misérables_Tome_V_Jean_Valjean,4,undirected
+hugo_-_Les_misérables_Tome_IV_L'idylle_rue_Plumet_et_l'épopée_rue_Saint-Denis,hugo_-_L'homme_Qui_Rit,1,undirected
+hugo_-_Les_misérables_Tome_IV_L'idylle_rue_Plumet_et_l'épopée_rue_Saint-Denis,hugo_-_Le_Rhin,_Tome_II,1,undirected
+hugo_-_Les_misérables_Tome_IV_L'idylle_rue_Plumet_et_l'épopée_rue_Saint-Denis,hugo_-_Les_misérables_Tome_I_Fantine,2,undirected
+hugo_-_Les_misérables_Tome_IV_L'idylle_rue_Plumet_et_l'épopée_rue_Saint-Denis,hugo_-_Les_misérables_Tome_II__Cosette,6,undirected
+hugo_-_Les_misérables_Tome_IV_L'idylle_rue_Plumet_et_l'épopée_rue_Saint-Denis,hugo_-_Les_misérables_Tome_III_Marius,3,undirected
+hugo_-_Les_misérables_Tome_IV_L'idylle_rue_Plumet_et_l'épopée_rue_Saint-Denis,hugo_-_Les_misérables_Tome_V_Jean_Valjean,1,undirected
+hugo_-_Les_misérables_Tome_IV_L'idylle_rue_Plumet_et_l'épopée_rue_Saint-Denis,hugo_-_Les_Travailleurs_de_la_mer,1,undirected
+hugo_-_Les_misérables_Tome_IV_L'idylle_rue_Plumet_et_l'épopée_rue_Saint-Denis,hugo_-_Notre-Dame_de_Paris_-_Tome_2,2,undirected
+hugo_-_Les_misérables_Tome_IV_L'idylle_rue_Plumet_et_l'épopée_rue_Saint-Denis,hugo_-_Quatrevingt_Treize,1,undirected
+hugo_-_Les_misérables_Tome_V_Jean_Valjean,hugo_-_Claude_Gueux,1,undirected
+hugo_-_Les_misérables_Tome_V_Jean_Valjean,hugo_-_Les_misérables_Tome_I_Fantine,5,undirected
+hugo_-_Les_misérables_Tome_V_Jean_Valjean,hugo_-_Les_misérables_Tome_III_Marius,4,undirected
+hugo_-_Les_misérables_Tome_V_Jean_Valjean,hugo_-_Les_misérables_Tome_IV_L'idylle_rue_Plumet_et_l'épopée_rue_Saint-Denis,1,undirected
+hugo_-_Les_Travailleurs_de_la_mer,hugo_-_L'homme_Qui_Rit,2,undirected
+hugo_-_Les_Travailleurs_de_la_mer,hugo_-_Les_misérables_Tome_II__Cosette,3,undirected
+hugo_-_Les_Travailleurs_de_la_mer,hugo_-_Les_misérables_Tome_IV_L'idylle_rue_Plumet_et_l'épopée_rue_Saint-Denis,1,undirected
+hugo_-_Littérature_et_Philosophie_mêlées,dumas_-_Le_corricolo,1,undirected
+hugo_-_Littérature_et_Philosophie_mêlées,dumas_-_Les_Femmes_qui_tuent_et_les_Femmes_qui_votent,3,undirected
+hugo_-_Littérature_et_Philosophie_mêlées,hugo_-_Post-scriptum_de_ma_vie,2,undirected
+hugo_-_Littérature_et_Philosophie_mêlées,verne_-_Les Cinq Cents Millions De La Bégum,2,undirected
+hugo_-_Littérature_et_Philosophie_mêlées,zola_-_Ed. Manet,2,undirected
+hugo_-_Littérature_et_Philosophie_mêlées,zola_-_La vérité en marche,2,undirected
+hugo_-_Littérature_et_Philosophie_mêlées,zola_-_Le Naturalisme au théâtre, les théories et les exemples,6,undirected
+hugo_-_Napoléon_Le_Petit,hugo_-_Actes_et_Paroles,_Volume_1,1,undirected
+hugo_-_Napoléon_Le_Petit,hugo_-_Actes_et_Paroles,_Volume_2_Pendant_l'exil,1,undirected
+hugo_-_Napoléon_Le_Petit,hugo_-_Actes_et_Paroles,_Volume_3,1,undirected
+hugo_-_Napoléon_Le_Petit,hugo_-_L'homme_Qui_Rit,1,undirected
+hugo_-_Napoléon_Le_Petit,hugo_-_Le_Rhin,_Tome_IV,2,undirected
+hugo_-_Napoléon_Le_Petit,hugo_-_Post-scriptum_de_ma_vie,5,undirected
+hugo_-_Napoléon_Le_Petit,hugo_-_Quatrevingt_Treize,3,undirected
+hugo_-_Notre-Dame_de_Paris,dumas_-_La_femme_au_collier_de_velours,4,undirected
+hugo_-_Notre-Dame_de_Paris,dumas_-_Le_corricolo,2,undirected
+hugo_-_Notre-Dame_de_Paris,hugo_-_Le_Rhin,_Tome_II,3,undirected
+hugo_-_Notre-Dame_de_Paris,hugo_-_Notre-Dame_de_Paris_-_Tome_2,6,undirected
+hugo_-_Notre-Dame_de_Paris_-_Tome_2,dumas_-_La_femme_au_collier_de_velours,1,undirected
+hugo_-_Notre-Dame_de_Paris_-_Tome_2,hugo_-_Le_Rhin,_Tome_II,2,undirected
+hugo_-_Notre-Dame_de_Paris_-_Tome_2,hugo_-_Les_misérables_Tome_IV_L'idylle_rue_Plumet_et_l'épopée_rue_Saint-Denis,2,undirected
+hugo_-_Notre-Dame_de_Paris_-_Tome_2,hugo_-_Notre-Dame_de_Paris,6,undirected
+hugo_-_Post-scriptum_de_ma_vie,hugo_-_L'homme_Qui_Rit,1,undirected
+hugo_-_Post-scriptum_de_ma_vie,hugo_-_Littérature_et_Philosophie_mêlées,2,undirected
+hugo_-_Post-scriptum_de_ma_vie,hugo_-_Napoléon_Le_Petit,5,undirected
+hugo_-_Quatrevingt_Treize,hugo_-_L'homme_Qui_Rit,6,undirected
+hugo_-_Quatrevingt_Treize,hugo_-_Le_Rhin,_Tome_III,1,undirected
+hugo_-_Quatrevingt_Treize,hugo_-_Les_misérables_Tome_II__Cosette,2,undirected
+hugo_-_Quatrevingt_Treize,hugo_-_Les_misérables_Tome_IV_L'idylle_rue_Plumet_et_l'épopée_rue_Saint-Denis,1,undirected
+hugo_-_Quatrevingt_Treize,hugo_-_Napoléon_Le_Petit,3,undirected
+hugo_-_runner.sh,colette_-_Barks_and_Purrs,6,undirected
+hugo_-_runner.sh,daudet_-_Le_Petit_Chose,1,undirected
+hugo_-_runner.sh,hugo_-_Victor_Hugo_à_vingt_ans_Glanes_romantiques,1,undirected
+hugo_-_runner.sh,verne_-_Les grands navigateurs du XVIIIe siècle,5,undirected
+hugo_-_Ruy_Blas_Drame,dumas_-_La_dame_de_Monsoreau_—__Tome_1.,1,undirected
+hugo_-_Ruy_Blas_Drame,dumas_-_Les_mille_et_un_fantômes,3,undirected
+hugo_-_Ruy_Blas_Drame,hugo_-_Hernani,1,undirected
+hugo_-_Ruy_Blas_Drame,hugo_-_La_Esmeralda,3,undirected
+hugo_-_Ruy_Blas_Drame,hugo_-_Le_Dernier_Jour_d'un_Condamné,1,undirected
+hugo_-_Ruy_Blas_Drame,hugo_-_Le_Roi_s'amuse,3,undirected
+hugo_-_Ruy_Blas_Drame,maupassant_-_Le_Horla,2,undirected
+hugo_-_Victor_Hugo_à_vingt_ans_Glanes_romantiques,daudet_-_Le_Petit_Chose,2,undirected
+hugo_-_Victor_Hugo_à_vingt_ans_Glanes_romantiques,hugo_-_runner.sh,1,undirected
+hugo_-_Victor_Hugo_à_vingt_ans_Glanes_romantiques,verne_-_Les grands navigateurs du XVIIIe siècle,5,undirected
+maupassant_-_Boule_de_Suif,maupassant_-_Contes_de_la_Becasse,2,undirected
+maupassant_-_Boule_de_Suif,maupassant_-_La_Femme_de_Paul,1,undirected
+maupassant_-_Boule_de_Suif,maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_04,3,undirected
+maupassant_-_Claire_de_Lune,maupassant_-_Contes_de_la_Becasse,6,undirected
+maupassant_-_Claire_de_Lune,maupassant_-_Contes_du_jour_et_de_la_nuit,4,undirected
+maupassant_-_Claire_de_Lune,maupassant_-_Guy_de_Maupassant,1,undirected
+maupassant_-_Claire_de_Lune,maupassant_-_La_Main_Gauche,2,undirected
+maupassant_-_Claire_de_Lune,maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_03,2,undirected
+maupassant_-_Claire_de_Lune,maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_04,4,undirected
+maupassant_-_Claire_de_Lune,maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_05,2,undirected
+maupassant_-_Claire_de_Lune,maupassant_-_Une_vie,2,undirected
+maupassant_-_Contes_de_la_Becasse,maupassant_-_Boule_de_Suif,2,undirected
+maupassant_-_Contes_de_la_Becasse,maupassant_-_Claire_de_Lune,6,undirected
+maupassant_-_Contes_de_la_Becasse,maupassant_-_Contes_du_jour_et_de_la_nuit,2,undirected
+maupassant_-_Contes_de_la_Becasse,maupassant_-_Guy_de_Maupassant,2,undirected
+maupassant_-_Contes_de_la_Becasse,maupassant_-_La_Femme_de_Paul,4,undirected
+maupassant_-_Contes_de_la_Becasse,maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_03,1,undirected
+maupassant_-_Contes_de_la_Becasse,maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_04,5,undirected
+maupassant_-_Contes_du_jour_et_de_la_nuit,maupassant_-_Claire_de_Lune,4,undirected
+maupassant_-_Contes_du_jour_et_de_la_nuit,maupassant_-_Contes_de_la_Becasse,2,undirected
+maupassant_-_Contes_du_jour_et_de_la_nuit,maupassant_-_Guy_de_Maupassant,3,undirected
+maupassant_-_Contes_du_jour_et_de_la_nuit,maupassant_-_L'inutile_beauté,1,undirected
+maupassant_-_Contes_du_jour_et_de_la_nuit,maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_04,1,undirected
+maupassant_-_Contes_du_jour_et_de_la_nuit,maupassant_-_Pierre_et_Jean,2,undirected
+maupassant_-_Fort_comme_la_mort,maupassant_-_L'inutile_beauté,2,undirected
+maupassant_-_Fort_comme_la_mort,maupassant_-_Pierre_et_Jean,6,undirected
+maupassant_-_Fort_comme_la_mort,zola_-_Pot-Bouille,1,undirected
+maupassant_-_Guy_de_Maupassant,maupassant_-_Claire_de_Lune,1,undirected
+maupassant_-_Guy_de_Maupassant,maupassant_-_Contes_de_la_Becasse,2,undirected
+maupassant_-_Guy_de_Maupassant,maupassant_-_Contes_du_jour_et_de_la_nuit,3,undirected
+maupassant_-_L'inutile_beauté,maupassant_-_Contes_du_jour_et_de_la_nuit,1,undirected
+maupassant_-_L'inutile_beauté,maupassant_-_Fort_comme_la_mort,2,undirected
+maupassant_-_L'inutile_beauté,maupassant_-_Le_Horla,5,undirected
+maupassant_-_L'inutile_beauté,maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_04,2,undirected
+maupassant_-_La_Femme_de_Paul,maupassant_-_Boule_de_Suif,1,undirected
+maupassant_-_La_Femme_de_Paul,maupassant_-_Contes_de_la_Becasse,4,undirected
+maupassant_-_La_Femme_de_Paul,maupassant_-_La_Main_Gauche,3,undirected
+maupassant_-_La_Femme_de_Paul,maupassant_-_Le_Horla,3,undirected
+maupassant_-_La_Femme_de_Paul,maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_03,1,undirected
+maupassant_-_La_Femme_de_Paul,maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_04,3,undirected
+maupassant_-_La_Femme_de_Paul,zola_-_Contes à Ninon,1,undirected
+maupassant_-_La_Main_Gauche,maupassant_-_Claire_de_Lune,2,undirected
+maupassant_-_La_Main_Gauche,maupassant_-_La_Femme_de_Paul,3,undirected
+maupassant_-_La_Main_Gauche,maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_03,1,undirected
+maupassant_-_La_Maison_Tellier,maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_03,6,undirected
+maupassant_-_La_Maison_Tellier,maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_05,2,undirected
+maupassant_-_La_Maison_Tellier,maupassant_-_Une_vie,2,undirected
+maupassant_-_Le_Horla,hugo_-_Le_Dernier_Jour_d'un_Condamné,2,undirected
+maupassant_-_Le_Horla,hugo_-_Ruy_Blas_Drame,2,undirected
+maupassant_-_Le_Horla,maupassant_-_L'inutile_beauté,5,undirected
+maupassant_-_Le_Horla,maupassant_-_La_Femme_de_Paul,3,undirected
+maupassant_-_Le_Horla,maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_04,1,undirected
+maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_03,maupassant_-_Claire_de_Lune,2,undirected
+maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_03,maupassant_-_Contes_de_la_Becasse,1,undirected
+maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_03,maupassant_-_La_Femme_de_Paul,1,undirected
+maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_03,maupassant_-_La_Main_Gauche,1,undirected
+maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_03,maupassant_-_La_Maison_Tellier,6,undirected
+maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_03,maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_05,1,undirected
+maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_04,maupassant_-_Boule_de_Suif,3,undirected
+maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_04,maupassant_-_Claire_de_Lune,4,undirected
+maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_04,maupassant_-_Contes_de_la_Becasse,5,undirected
+maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_04,maupassant_-_Contes_du_jour_et_de_la_nuit,1,undirected
+maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_04,maupassant_-_L'inutile_beauté,2,undirected
+maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_04,maupassant_-_La_Femme_de_Paul,3,undirected
+maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_04,maupassant_-_Le_Horla,1,undirected
+maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_04,zola_-_Contes à Ninon,2,undirected
+maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_05,maupassant_-_Claire_de_Lune,2,undirected
+maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_05,maupassant_-_La_Maison_Tellier,2,undirected
+maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_05,maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_03,1,undirected
+maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_05,maupassant_-_Pierre_et_Jean,1,undirected
+maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_05,maupassant_-_Une_vie,6,undirected
+maupassant_-_Pierre_et_Jean,maupassant_-_Contes_du_jour_et_de_la_nuit,2,undirected
+maupassant_-_Pierre_et_Jean,maupassant_-_Fort_comme_la_mort,6,undirected
+maupassant_-_Pierre_et_Jean,maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_05,1,undirected
+maupassant_-_Une_vie,maupassant_-_Claire_de_Lune,2,undirected
+maupassant_-_Une_vie,maupassant_-_La_Maison_Tellier,2,undirected
+maupassant_-_Une_vie,maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_05,6,undirected
+maupassant_-_Une_vie,zola_-_Thérèse Raquin,1,undirected
+verne_-_Autour de la lune,verne_-_De la terre à la lune,2,undirected
+verne_-_Autour de la lune,verne_-_L'île à hélice,1,undirected
+verne_-_Autour de la lune,verne_-_L'île mystérieuse,2,undirected
+verne_-_Autour de la lune,verne_-_Les enfants du capitaine Grant,3,undirected
+verne_-_Autour de la lune,verne_-_Sans dessus dessous,2,undirected
+verne_-_Aventures du Capitaine Hatteras,verne_-_De la terre à la lune,2,undirected
+verne_-_Aventures du Capitaine Hatteras,verne_-_L'île mystérieuse,1,undirected
+verne_-_Aventures du Capitaine Hatteras,verne_-_La maison à vapeur,2,undirected
+verne_-_Aventures du Capitaine Hatteras,verne_-_Le Docteur Ox,2,undirected
+verne_-_Aventures du Capitaine Hatteras,verne_-_Les enfants du capitaine Grant,5,undirected
+verne_-_Aventures du Capitaine Hatteras,verne_-_Voyage au Centre de la Terre,1,undirected
+verne_-_De la terre à la lune,verne_-_Autour de la lune,2,undirected
+verne_-_De la terre à la lune,verne_-_Aventures du Capitaine Hatteras,2,undirected
+verne_-_De la terre à la lune,verne_-_Les enfants du capitaine Grant,6,undirected
+verne_-_De la terre à la lune,verne_-_Michel Strogoff,1,undirected
+verne_-_De la terre à la lune,verne_-_Sans dessus dessous,3,undirected
+verne_-_Kéraban-Le-Têtu, Volume I,verne_-_La Jangada,3,undirected
+verne_-_Kéraban-Le-Têtu, Volume I,verne_-_La maison à vapeur,2,undirected
+verne_-_Kéraban-Le-Têtu, Volume I,verne_-_Les Indes Noires,1,undirected
+verne_-_Kéraban-Le-Têtu, Volume I,verne_-_Un billet de loterie,3,undirected
+verne_-_L'archipel en feu,verne_-_La Jangada,3,undirected
+verne_-_L'archipel en feu,verne_-_La maison à vapeur,2,undirected
+verne_-_L'archipel en feu,verne_-_Les tribulations d'un chinois en Chine,1,undirected
+verne_-_L'île à hélice,verne_-_Autour de la lune,1,undirected
+verne_-_L'île à hélice,verne_-_Le village aérien,6,undirected
+verne_-_L'île à hélice,verne_-_Sans dessus dessous,2,undirected
+verne_-_L'île mystérieuse,verne_-_Autour de la lune,2,undirected
+verne_-_L'île mystérieuse,verne_-_Aventures du Capitaine Hatteras,1,undirected
+verne_-_L'île mystérieuse,verne_-_La maison à vapeur,5,undirected
+verne_-_L'île mystérieuse,verne_-_Le tour du monde en quatre-vingts jours,1,undirected
+verne_-_L'île mystérieuse,verne_-_Le village aérien,2,undirected
+verne_-_L'île mystérieuse,verne_-_Robur-le-conquérant,5,undirected
+verne_-_La Jangada,verne_-_Kéraban-Le-Têtu, Volume I,3,undirected
+verne_-_La Jangada,verne_-_L'archipel en feu,3,undirected
+verne_-_La Jangada,verne_-_La maison à vapeur,4,undirected
+verne_-_La Jangada,verne_-_Le chateâu des Carpathes,2,undirected
+verne_-_La Jangada,verne_-_Le pilote du Danube,1,undirected
+verne_-_La Jangada,verne_-_Le tour du monde en quatre-vingts jours,3,undirected
+verne_-_La Jangada,verne_-_Les Indes Noires,4,undirected
+verne_-_La Jangada,verne_-_Les tribulations d'un chinois en Chine,4,undirected
+verne_-_La Jangada,verne_-_P'tit-bonhomme,1,undirected
+verne_-_La Jangada,verne_-_Un billet de loterie,2,undirected
+verne_-_La maison à vapeur,verne_-_Aventures du Capitaine Hatteras,2,undirected
+verne_-_La maison à vapeur,verne_-_Kéraban-Le-Têtu, Volume I,2,undirected
+verne_-_La maison à vapeur,verne_-_L'archipel en feu,2,undirected
+verne_-_La maison à vapeur,verne_-_L'île mystérieuse,5,undirected
+verne_-_La maison à vapeur,verne_-_La Jangada,4,undirected
+verne_-_La maison à vapeur,verne_-_Le Docteur Ox,1,undirected
+verne_-_La maison à vapeur,verne_-_Les Indes Noires,2,undirected
+verne_-_La maison à vapeur,verne_-_Les naufragés du Jonathan,1,undirected
+verne_-_La maison à vapeur,verne_-_Les tribulations d'un chinois en Chine,6,undirected
+verne_-_La maison à vapeur,verne_-_Robur-le-conquérant,2,undirected
+verne_-_Le chateâu des Carpathes,verne_-_La Jangada,2,undirected
+verne_-_Le chateâu des Carpathes,verne_-_Le pilote du Danube,1,undirected
+verne_-_Le chateâu des Carpathes,verne_-_P'tit-bonhomme,6,undirected
+verne_-_Le Docteur Ox,verne_-_Aventures du Capitaine Hatteras,2,undirected
+verne_-_Le Docteur Ox,verne_-_La maison à vapeur,1,undirected
+verne_-_Le Docteur Ox,verne_-_Les enfants du capitaine Grant,4,undirected
+verne_-_Le pilote du Danube,verne_-_La Jangada,1,undirected
+verne_-_Le pilote du Danube,verne_-_Le chateâu des Carpathes,1,undirected
+verne_-_Le pilote du Danube,verne_-_Le tour du monde en quatre-vingts jours,4,undirected
+verne_-_Le pilote du Danube,verne_-_Les naufragés du Jonathan,6,undirected
+verne_-_Le pilote du Danube,verne_-_P'tit-bonhomme,2,undirected
+verne_-_Le tour du monde en quatre-vingts jours,verne_-_L'île mystérieuse,1,undirected
+verne_-_Le tour du monde en quatre-vingts jours,verne_-_La Jangada,3,undirected
+verne_-_Le tour du monde en quatre-vingts jours,verne_-_Le pilote du Danube,4,undirected
+verne_-_Le tour du monde en quatre-vingts jours,verne_-_Les Cinq Cents Millions De La Bégum,1,undirected
+verne_-_Le tour du monde en quatre-vingts jours,verne_-_Les enfants du capitaine Grant,1,undirected
+verne_-_Le tour du monde en quatre-vingts jours,verne_-_Michel Strogoff,2,undirected
+verne_-_Le village aérien,verne_-_L'île à hélice,6,undirected
+verne_-_Le village aérien,verne_-_L'île mystérieuse,2,undirected
+verne_-_Le village aérien,verne_-_P'tit-bonhomme,1,undirected
+verne_-_Les Cinq Cents Millions De La Bégum,dumas_-_Le_corricolo,2,undirected
+verne_-_Les Cinq Cents Millions De La Bégum,dumas2hugo_para_1,2,undirected
+verne_-_Les Cinq Cents Millions De La Bégum,hugo_-_Littérature_et_Philosophie_mêlées,2,undirected
+verne_-_Les Cinq Cents Millions De La Bégum,verne_-_Le tour du monde en quatre-vingts jours,1,undirected
+verne_-_Les Cinq Cents Millions De La Bégum,zola_-_L'Argent,3,undirected
+verne_-_Les enfants du capitaine Grant,verne_-_Autour de la lune,3,undirected
+verne_-_Les enfants du capitaine Grant,verne_-_Aventures du Capitaine Hatteras,5,undirected
+verne_-_Les enfants du capitaine Grant,verne_-_De la terre à la lune,6,undirected
+verne_-_Les enfants du capitaine Grant,verne_-_Le Docteur Ox,4,undirected
+verne_-_Les enfants du capitaine Grant,verne_-_Le tour du monde en quatre-vingts jours,1,undirected
+verne_-_Les enfants du capitaine Grant,verne_-_Une ville flottante,1,undirected
+verne_-_Les enfants du capitaine Grant,verne_-_Vingt mille Lieues Sous Les Mers — Complete,1,undirected
+verne_-_Les enfants du capitaine Grant,verne_-_Vingt mille lieues sous les mers,1,undirected
+verne_-_Les grands navigateurs du XVIIIe siècle,colette_-_Barks_and_Purrs,2,undirected
+verne_-_Les grands navigateurs du XVIIIe siècle,hugo_-_runner.sh,5,undirected
+verne_-_Les grands navigateurs du XVIIIe siècle,hugo_-_Victor_Hugo_à_vingt_ans_Glanes_romantiques,5,undirected
+verne_-_Les Indes Noires,verne_-_Kéraban-Le-Têtu, Volume I,1,undirected
+verne_-_Les Indes Noires,verne_-_La Jangada,4,undirected
+verne_-_Les Indes Noires,verne_-_La maison à vapeur,2,undirected
+verne_-_Les Indes Noires,verne_-_Les tribulations d'un chinois en Chine,2,undirected
+verne_-_Les naufragés du Jonathan,verne_-_La maison à vapeur,1,undirected
+verne_-_Les naufragés du Jonathan,verne_-_Le pilote du Danube,6,undirected
+verne_-_Les naufragés du Jonathan,zola_-_Germinal,2,undirected
+verne_-_Les tribulations d'un chinois en Chine,verne_-_L'archipel en feu,1,undirected
+verne_-_Les tribulations d'un chinois en Chine,verne_-_La Jangada,4,undirected
+verne_-_Les tribulations d'un chinois en Chine,verne_-_La maison à vapeur,6,undirected
+verne_-_Les tribulations d'un chinois en Chine,verne_-_Les Indes Noires,2,undirected
+verne_-_Les tribulations d'un chinois en Chine,verne_-_Michel Strogoff,3,undirected
+verne_-_Les tribulations d'un chinois en Chine,verne_-_Robur-le-conquérant,1,undirected
+verne_-_Michel Strogoff,daudet_-_Le_Petit_Chose,2,undirected
+verne_-_Michel Strogoff,verne_-_De la terre à la lune,1,undirected
+verne_-_Michel Strogoff,verne_-_Le tour du monde en quatre-vingts jours,2,undirected
+verne_-_Michel Strogoff,verne_-_Les tribulations d'un chinois en Chine,3,undirected
+verne_-_P'tit-bonhomme,verne_-_La Jangada,1,undirected
+verne_-_P'tit-bonhomme,verne_-_Le chateâu des Carpathes,6,undirected
+verne_-_P'tit-bonhomme,verne_-_Le pilote du Danube,2,undirected
+verne_-_P'tit-bonhomme,verne_-_Le village aérien,1,undirected
+verne_-_P'tit-bonhomme,verne_-_Un billet de loterie,1,undirected
+verne_-_Robur-le-conquérant,verne_-_L'île mystérieuse,5,undirected
+verne_-_Robur-le-conquérant,verne_-_La maison à vapeur,2,undirected
+verne_-_Robur-le-conquérant,verne_-_Les tribulations d'un chinois en Chine,1,undirected
+verne_-_Robur-le-conquérant,verne_-_Sans dessus dessous,1,undirected
+verne_-_Sans dessus dessous,verne_-_Autour de la lune,2,undirected
+verne_-_Sans dessus dessous,verne_-_De la terre à la lune,3,undirected
+verne_-_Sans dessus dessous,verne_-_L'île à hélice,2,undirected
+verne_-_Sans dessus dessous,verne_-_Robur-le-conquérant,1,undirected
+verne_-_Un billet de loterie,verne_-_Kéraban-Le-Têtu, Volume I,3,undirected
+verne_-_Un billet de loterie,verne_-_La Jangada,2,undirected
+verne_-_Un billet de loterie,verne_-_P'tit-bonhomme,1,undirected
+verne_-_Une ville flottante,verne_-_Les enfants du capitaine Grant,1,undirected
+verne_-_Une ville flottante,verne_-_Vingt mille Lieues Sous Les Mers — Complete,5,undirected
+verne_-_Une ville flottante,verne_-_Vingt mille lieues sous les mers,4,undirected
+verne_-_Vingt mille Lieues Sous Les Mers — Complete,verne_-_Les enfants du capitaine Grant,1,undirected
+verne_-_Vingt mille Lieues Sous Les Mers — Complete,verne_-_Une ville flottante,5,undirected
+verne_-_Vingt mille Lieues Sous Les Mers — Complete,verne_-_Vingt mille lieues sous les mers,6,undirected
+verne_-_Vingt mille Lieues Sous Les Mers — Complete,verne_-_Voyage au Centre de la Terre,3,undirected
+verne_-_Vingt mille lieues sous les mers,verne_-_Les enfants du capitaine Grant,1,undirected
+verne_-_Vingt mille lieues sous les mers,verne_-_Une ville flottante,4,undirected
+verne_-_Vingt mille lieues sous les mers,verne_-_Vingt mille Lieues Sous Les Mers — Complete,6,undirected
+verne_-_Vingt mille lieues sous les mers,verne_-_Voyage au Centre de la Terre,2,undirected
+verne_-_Voyage au Centre de la Terre,verne_-_Aventures du Capitaine Hatteras,1,undirected
+verne_-_Voyage au Centre de la Terre,verne_-_Vingt mille Lieues Sous Les Mers — Complete,3,undirected
+verne_-_Voyage au Centre de la Terre,verne_-_Vingt mille lieues sous les mers,2,undirected
+zola_-_Au bonheur des dames,zola_-_Germinal,1,undirected
+zola_-_Au bonheur des dames,zola_-_L'Assommoir,2,undirected
+zola_-_Au bonheur des dames,zola_-_L'Œuvre,6,undirected
+zola_-_Au bonheur des dames,zola_-_La Curée,2,undirected
+zola_-_Au bonheur des dames,zola_-_Le Rêve,2,undirected
+zola_-_Au bonheur des dames,zola_-_Le Ventre de Paris,2,undirected
+zola_-_Au bonheur des dames,zola_-_Lourdes,1,undirected
+zola_-_Au bonheur des dames,zola_-_Nana,4,undirected
+zola_-_Au bonheur des dames,zola_-_Pot-Bouille,2,undirected
+zola_-_Au bonheur des dames,zola_-_Son Excellence Eugène Rougon,2,undirected
+zola_-_Contes à Ninon,maupassant_-_La_Femme_de_Paul,1,undirected
+zola_-_Contes à Ninon,maupassant_-_Œuvres_complètes_de_Guy_de_Maupassant_-_volume_04,2,undirected
+zola_-_Contes à Ninon,zola_-_Germinal,3,undirected
+zola_-_Correspondance Les lettres et les arts,dumas_-_Henri_III_et_sa_Cour,2,undirected
+zola_-_Correspondance Les lettres et les arts,zola_-_Correspondance Lettres de jeunesse,6,undirected
+zola_-_Correspondance Les lettres et les arts,zola_-_La vérité en marche,1,undirected
+zola_-_Correspondance Lettres de jeunesse,dumas_-_La_dame_de_Monsoreau_—__Tome_1.,2,undirected
+zola_-_Correspondance Lettres de jeunesse,dumas_-_Le_comte_de_Monte-Cristo,_Tome_III,1,undirected
+zola_-_Correspondance Lettres de jeunesse,zola_-_Correspondance Les lettres et les arts,6,undirected
+zola_-_Ed. Manet,hugo_-_Littérature_et_Philosophie_mêlées,2,undirected
+zola_-_Ed. Manet,zola_-_La vérité en marche,1,undirected
+zola_-_Ed. Manet,zola_-_Le Naturalisme au théâtre, les théories et les exemples,4,undirected
+zola_-_Germinal,verne_-_Les naufragés du Jonathan,2,undirected
+zola_-_Germinal,zola_-_Au bonheur des dames,1,undirected
+zola_-_Germinal,zola_-_Contes à Ninon,3,undirected
+zola_-_Germinal,zola_-_L'Œuvre,4,undirected
+zola_-_Germinal,zola_-_La Débâcle,6,undirected
+zola_-_Germinal,zola_-_La Terre,2,undirected
+zola_-_L'Argent,verne_-_Les Cinq Cents Millions De La Bégum,3,undirected
+zola_-_L'Argent,zola_-_Le Docteur Pascal,1,undirected
+zola_-_L'Argent,zola_-_Lourdes,3,undirected
+zola_-_L'Argent,zola_-_Paris,6,undirected
+zola_-_L'Argent,zola_-_Rome,4,undirected
+zola_-_L'Assommoir,zola_-_Au bonheur des dames,2,undirected
+zola_-_L'Assommoir,zola_-_Le Ventre de Paris,2,undirected
+zola_-_L'Assommoir,zola_-_Nana,3,undirected
+zola_-_L'Œuvre,zola_-_Au bonheur des dames,6,undirected
+zola_-_L'Œuvre,zola_-_Germinal,4,undirected
+zola_-_L'Œuvre,zola_-_La Débâcle,1,undirected
+zola_-_L'Œuvre,zola_-_La Terre,1,undirected
+zola_-_L'Œuvre,zola_-_Le Rêve,1,undirected
+zola_-_L'Œuvre,zola_-_Lourdes,1,undirected
+zola_-_La Bête humaine,zola_-_La Terre,5,undirected
+zola_-_La Bête humaine,zola_-_Le Docteur Pascal,5,undirected
+zola_-_La Bête humaine,zola_-_Paris,1,undirected
+zola_-_La Conquête de Plassans,zola_-_La faute de l'abbé Mouret,6,undirected
+zola_-_La Conquête de Plassans,zola_-_Pot-Bouille,1,undirected
+zola_-_La Conquête de Plassans,zola_-_Son Excellence Eugène Rougon,2,undirected
+zola_-_La Curée,zola_-_Au bonheur des dames,2,undirected
+zola_-_La Curée,zola_-_Le Ventre de Paris,6,undirected
+zola_-_La Curée,zola_-_Nana,1,undirected
+zola_-_La Curée,zola_-_Thérèse Raquin,3,undirected
+zola_-_La Débâcle,zola_-_Germinal,6,undirected
+zola_-_La Débâcle,zola_-_L'Œuvre,1,undirected
+zola_-_La Débâcle,zola_-_Lourdes,2,undirected
+zola_-_La faute de l'abbé Mouret,zola_-_La Conquête de Plassans,6,undirected
+zola_-_La faute de l'abbé Mouret,zola_-_Pot-Bouille,1,undirected
+zola_-_La faute de l'abbé Mouret,zola_-_Son Excellence Eugène Rougon,2,undirected
+zola_-_La Terre,zola_-_Germinal,2,undirected
+zola_-_La Terre,zola_-_L'Œuvre,1,undirected
+zola_-_La Terre,zola_-_La Bête humaine,5,undirected
+zola_-_La vérité en marche,dumas_-_Bric-à-brac,1,undirected
+zola_-_La vérité en marche,dumas_-_Les_Femmes_qui_tuent_et_les_Femmes_qui_votent,1,undirected
+zola_-_La vérité en marche,hugo_-_Littérature_et_Philosophie_mêlées,2,undirected
+zola_-_La vérité en marche,zola_-_Correspondance Les lettres et les arts,1,undirected
+zola_-_La vérité en marche,zola_-_Ed. Manet,1,undirected
+zola_-_La vérité en marche,zola_-_Le Naturalisme au théâtre, les théories et les exemples,5,undirected
+zola_-_Le Docteur Pascal,zola_-_L'Argent,1,undirected
+zola_-_Le Docteur Pascal,zola_-_La Bête humaine,5,undirected
+zola_-_Le Docteur Pascal,zola_-_Paris,5,undirected
+zola_-_Le Docteur Pascal,zola_-_Une page d'amour,1,undirected
+zola_-_Le Naturalisme au théâtre, les théories et les exemples,dumas_-_Les_Femmes_qui_tuent_et_les_Femmes_qui_votent,2,undirected
+zola_-_Le Naturalisme au théâtre, les théories et les exemples,hugo_-_Littérature_et_Philosophie_mêlées,6,undirected
+zola_-_Le Naturalisme au théâtre, les théories et les exemples,zola_-_Ed. Manet,4,undirected
+zola_-_Le Naturalisme au théâtre, les théories et les exemples,zola_-_La vérité en marche,5,undirected
+zola_-_Le Rêve,zola_-_Au bonheur des dames,2,undirected
+zola_-_Le Rêve,zola_-_L'Œuvre,1,undirected
+zola_-_Le Rêve,zola_-_Lourdes,3,undirected
+zola_-_Le Ventre de Paris,zola_-_Au bonheur des dames,2,undirected
+zola_-_Le Ventre de Paris,zola_-_L'Assommoir,2,undirected
+zola_-_Le Ventre de Paris,zola_-_La Curée,6,undirected
+zola_-_Le Ventre de Paris,zola_-_Nouveaux Contes à Ninon,3,undirected
+zola_-_Le Ventre de Paris,zola_-_Thérèse Raquin,2,undirected
+zola_-_Lourdes,zola_-_Au bonheur des dames,1,undirected
+zola_-_Lourdes,zola_-_L'Argent,3,undirected
+zola_-_Lourdes,zola_-_L'Œuvre,1,undirected
+zola_-_Lourdes,zola_-_La Débâcle,2,undirected
+zola_-_Lourdes,zola_-_Le Rêve,3,undirected
+zola_-_Lourdes,zola_-_Paris,2,undirected
+zola_-_Lourdes,zola_-_Rome,6,undirected
+zola_-_Nana,zola_-_Au bonheur des dames,4,undirected
+zola_-_Nana,zola_-_L'Assommoir,3,undirected
+zola_-_Nana,zola_-_La Curée,1,undirected
+zola_-_Nana,zola_-_Pot-Bouille,6,undirected
+zola_-_Nana,zola_-_Son Excellence Eugène Rougon,4,undirected
+zola_-_Nana,zola_-_Une page d'amour,3,undirected
+zola_-_Nouveaux Contes à Ninon,colette_-_Sido_suivi_de_Les_vrilles_de_la_vigne,1,undirected
+zola_-_Nouveaux Contes à Ninon,daudet_-_Lettres_de_mon_moulin,2,undirected
+zola_-_Nouveaux Contes à Ninon,zola_-_Le Ventre de Paris,3,undirected
+zola_-_Paris,zola_-_L'Argent,6,undirected
+zola_-_Paris,zola_-_La Bête humaine,1,undirected
+zola_-_Paris,zola_-_Le Docteur Pascal,5,undirected
+zola_-_Paris,zola_-_Lourdes,2,undirected
+zola_-_Paris,zola_-_Rome,1,undirected
+zola_-_Pot-Bouille,maupassant_-_Fort_comme_la_mort,1,undirected
+zola_-_Pot-Bouille,zola_-_Au bonheur des dames,2,undirected
+zola_-_Pot-Bouille,zola_-_La Conquête de Plassans,1,undirected
+zola_-_Pot-Bouille,zola_-_La faute de l'abbé Mouret,1,undirected
+zola_-_Pot-Bouille,zola_-_Nana,6,undirected
+zola_-_Pot-Bouille,zola_-_Son Excellence Eugène Rougon,2,undirected
+zola_-_Pot-Bouille,zola_-_Une page d'amour,2,undirected
+zola_-_Rome,zola_-_L'Argent,4,undirected
+zola_-_Rome,zola_-_Lourdes,6,undirected
+zola_-_Rome,zola_-_Paris,1,undirected
+zola_-_Son Excellence Eugène Rougon,zola_-_Au bonheur des dames,2,undirected
+zola_-_Son Excellence Eugène Rougon,zola_-_La Conquête de Plassans,2,undirected
+zola_-_Son Excellence Eugène Rougon,zola_-_La faute de l'abbé Mouret,2,undirected
+zola_-_Son Excellence Eugène Rougon,zola_-_Nana,4,undirected
+zola_-_Son Excellence Eugène Rougon,zola_-_Pot-Bouille,2,undirected
+zola_-_Thérèse Raquin,maupassant_-_Une_vie,1,undirected
+zola_-_Thérèse Raquin,zola_-_La Curée,3,undirected
+zola_-_Thérèse Raquin,zola_-_Le Ventre de Paris,2,undirected
+zola_-_Une page d'amour,zola_-_Le Docteur Pascal,1,undirected
+zola_-_Une page d'amour,zola_-_Nana,3,undirected
+zola_-_Une page d'amour,zola_-_Pot-Bouille,2,undirected
