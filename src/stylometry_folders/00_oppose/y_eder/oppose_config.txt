@@ -1,0 +1,14 @@
+text.slice.length = 3000
+text.slice.overlap = 0
+rare.occurrences.threshold = 4
+zeta.filter.threshold = 0.1
+oppose.method = "eder.zeta"
+display.on.screen = FALSE
+write.pdf.file = FALSE
+write.png.file = TRUE
+use.color.graphs = TRUE
+titles.on.graph = FALSE
+identify.points = FALSE
+visualization = "words"
+classification = FALSE
+plot.token = ""
