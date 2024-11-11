@@ -26,7 +26,10 @@ def list_sources() -> List[str]:
 def list_authors() -> List[str]:
     """List authors in the corpus"""
     raw_stage = to_absolute("__data/stage=raw")
-    authors = [os.listdir(os.path.join(raw_stage, f"source={source}")) for source in list_sources()]  # authors from different sources
+    authors = [
+        # authors from different sources
+        os.listdir(os.path.join(raw_stage, f"source={source}")) for source in list_sources()
+    ]
     authors = set().union(*authors)  # preserving unique authors
     return list(authors)
 
