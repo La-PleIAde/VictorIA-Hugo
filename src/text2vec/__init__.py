@@ -1,1 +1,1 @@
-from .embedder import ModelName, SModelName, Embedder, SentenceTransformer, EmbedderType
+from .embedder import Embedder, SentenceTransformer, EmbedderType

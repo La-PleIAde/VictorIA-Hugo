@@ -1,43 +1,38 @@
 import numpy as np
-import torch
+
+from src.metrics.vec import scaled_cosine_similarity as similarity
+from src.metrics.vec import scaled_cosine_similarity_complement as dissimilarity
 
 
-def uar(embeddings: list):
-    """Universal Authorship Representation
-    Averages embeddings of the texts of a given author.
-
-    :param embeddings: List of embeddings.
-    :return: averaged embedding vector.
+def geometric_mean(*values: float) -> float:
     """
-    embeddings = torch.stack(embeddings)
-    author_embedding = embeddings.mean(dim=0)
-    return author_embedding.flatten()
+    Computes the geometric mean of a sequence of values.
 
+    Parameters:
+    ----------
+    *values : float
+        A sequence of numeric values passed as individual arguments.
+        All values must be non-negative.
 
-def similarity(vec1, vec2):
-    """Vector similarity"""
-    sim = np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
-    return (sim + 1) / 2  # Scaling sim to the range [0, 1]
+    Returns:
+    -------
+    float
+        The geometric mean of the values.
 
-
-def dissimilarity(vec1, vec2):
-    """Complement to vector similarity"""
-    return 1 - similarity(vec1, vec2)
-
-
-def mis(Pa, Pb):
+    Raises:
+    ------
+    ValueError
+        If no values are provided or if any value is negative.
     """
-    Mutual Implication Score (MIS)
+    if not values:
+        raise ValueError("At least one value must be provided.")
 
-    :param Pa: Corpus of the first author's embeddings
-    :param Pb: Corpus of the second author's embeddings
-    :return: Mutual Implication Score (MIS)
-    """
-    return np.mean([np.dot(pa, pb) / (np.linalg.norm(pa) * np.linalg.norm(pb)) for pa, pb in zip(Pa, Pb)])
+    if any(value < 0 for value in values):
+        raise ValueError("All values must be non-negative to compute the geometric mean.")
 
-
-def geometric_mean(values):
-    return np.prod(values) ** (1.0 / len(values))
+    # Compute the geometric mean
+    product = np.prod(values)
+    return product ** (1 / len(values))
 
 
 def away(Rs, Rt, Rst):
@@ -63,20 +58,8 @@ def towards(Rs, Rt, Rst):
     return max(similarity(Rst, Rt) - similarity(Rs, Rt), 0) / dissimilarity(Rs, Rt)
 
 
-def sim(Ps, Pt, Pst):
-    """
-    SIM score
-
-    :param Ps: source author's corpus embeddings
-    :param Pt: target author's corpus embeddings
-    :param Pst: style transferred corpus embeddings
-    :return: SIM score
-    """
-    return max(mis(Pst, Ps) - mis(Pt, Ps), 0) / (1 - mis(Pt, Ps))
-
-
 def joint(away, towards, sim):
     """Joint score: geometric mean of Away, Towards, and SIM scores"""
     return geometric_mean(
-        [ geometric_mean([away, towards]), sim ]
+        geometric_mean(away, towards), sim
     )
